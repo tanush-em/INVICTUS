@@ -15,14 +15,13 @@ const passes = [
     features: ["Access to all talks", "Workshop materials", "Lunch included", "Certificate"]
   },
   {
-    name: "Pro Pass",
-    price: "₹999",
-    features: ["Standard Pass benefits", "Priority seating", "Exclusive networking session", "Recorded sessions access"]
-  },
-  {
-    name: "VIP Pass",
-    price: "₹1999",
-    features: ["Pro Pass benefits", "One-on-one mentoring", "Special dinner event", "Swag kit"]
+    name: "Standard Pass",
+    price: "₹499",
+    features: ["Access to all talks", "Workshop materials", "Lunch included", "Certificate"]
+  },{
+    name: "Standard Pass",
+    price: "₹499",
+    features: ["Access to all talks", "Workshop materials", "Lunch included", "Certificate"]
   }
 ];
 
@@ -49,7 +48,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
+      {/* Hero Section
       <section className="h-screen flex flex-col items-center justify-center relative overflow-hidden">
         <motion.div
           initial={{ scale: 0 }}
@@ -83,10 +82,10 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* About Section */}
-      <section className="py-24 px-8">
+      {/* <section className="py-24 px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">About The Event</h2>
           <p className="text-lg text-muted-foreground mb-8">
@@ -112,7 +111,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Events Section */}
       <section className="py-24">
@@ -130,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Passes Section */}
-      <section className="py-24 px-8">
+      {/* <section className="py-24 px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center">Event Passes</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -156,10 +155,10 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
-      <section className="py-24 px-8 bg-muted">
+      {/* <section className="py-24 px-8 bg-muted">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-12">Contact Us</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -177,10 +176,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
-      <footer className="py-12 px-8 border-t border-white/10">
+      {/* <footer className="py-12 px-8 border-t border-white/10">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-2 mb-4 md:mb-0">
             <Crown className="w-6 h-6 text-primary" />
@@ -190,7 +189,7 @@ export default function Home() {
             <p className="text-muted-foreground">© 2024 College Name. All rights reserved.</p>
           </div>
         </div>
-      </footer>
-    </main>
+      </footer> */}
+    </main> 
   );
 }
