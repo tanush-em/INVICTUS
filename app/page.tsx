@@ -32,15 +32,15 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      {/* <HeroSection timeLeft={timeLeft} />
-      <AboutSection /> */}
+      <HeroSection timeLeft={timeLeft} />
+      <AboutSection /> 
       <EventsSection 
         technicalEvents={technicalEvents}
         nonTechnicalEvents={nonTechnicalEvents}
       />
-      {/* <PassesSection />
+      <PassesSection />
       <ContactSection />
-      <Footer /> */}
+      <Footer /> 
     </main>
   );
 }

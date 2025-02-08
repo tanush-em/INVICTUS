@@ -5,37 +5,37 @@ import { Separator } from '@/components/ui/separator';
 
 const passes = [
   {
-    name: "Standard Pass",
-    price: "₹499",
-    features: ["Access to all talks", "Workshop materials", "Lunch included", "Certificate"]
+    name: "Platinum Pass",
+    price: "₹999",
+    features: ["blah blah", "blah blah", "blah blah", "blah blah", "blah blah", "blah blah"]
   },
   {
-    name: "Standard Pass",
+    name: "Gold Pass",
     price: "₹499",
-    features: ["Access to all talks", "Workshop materials", "Lunch included", "Certificate"]
+    features: ["blah blah", "blah blah", "blah blah", "blah blah", "blah blah", "blah blah"]
   },
   {
-    name: "Standard Pass",
-    price: "₹499",
-    features: ["Access to all talks", "Workshop materials", "Lunch included", "Certificate"]
+    name: "Silver Pass",
+    price: "₹299",
+    features: ["blah blah", "blah blah", "blah blah", "blah blah", "blah blah", "blah blah"]
   }
 ];
 
 const PassesSection = () => {
   return (
-    <section className="py-24 px-8">
+    <section className="py-12 px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Event Passes</h2>
+        <h1 className="text-6xl font-bold mb-12 text-center">Our Passes</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {passes.map((pass, index) => (
             <motion.div
               key={index}
-              whileHover={{ translateY: -10 }}
+              whileHover={{ translateY: -12 }}
               className="pass-card"
             >
-              <h3 className="text-2xl font-bold mb-4">{pass.name}</h3>
+              <h2 className="text-2xl font-bold mb-4">{pass.name}</h2>
               <p className="text-4xl font-bold mb-6">{pass.price}</p>
-              <Separator className="mb-6" />
+              <Separator className="mb-4" />
               <ul className="space-y-4">
                 {pass.features.map((feature, i) => (
                   <li key={i} className="flex items-center gap-2">
@@ -44,7 +44,7 @@ const PassesSection = () => {
                   </li>
                 ))}
               </ul>
-              <Button className="w-full mt-8">Get Pass</Button>
+              <Button className="w-full mt-6">Get Pass</Button>
             </motion.div>
           ))}
         </div>
