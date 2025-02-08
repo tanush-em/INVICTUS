@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 215 32% 10%;
+  --foreground: 210 40% 98%;
+  --card: 215 32% 12%;
+  --card-foreground: 210 40% 98%;
+  --popover: 215 32% 12%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 142 76% 36%;
+  --primary-foreground: 144 70% 10%;
+  --secondary: 217 92% 49%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 215 32% 15%;
+  --muted-foreground: 215 20% 65%;
+  --accent: 217 92% 49%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 215 32% 15%;
+  --input: 215 32% 15%;
+  --ring: 142 76% 36%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.event-card {
+  @apply relative overflow-hidden rounded-xl border border-white/10 p-8 transition-all duration-300 hover:border-white/20 hover:bg-white/5;
+}
+
+.pass-card {
+  @apply relative overflow-hidden rounded-2xl border border-white/10 p-8 transition-all duration-300 hover:border-primary/50;
+  background: linear-gradient(to bottom right, hsl(var(--card)), hsl(var(--muted)));
+}
+
+.animated-border {
+  background: linear-gradient(
+    var(--angle, 0deg),
+    hsl(var(--primary)),
+    hsl(var(--secondary)),
+    hsl(var(--primary))
+  );
+  animation: rotate-gradient 5s linear infinite;
+}
+
+@keyframes rotate-gradient {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
