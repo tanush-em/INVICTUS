@@ -13,7 +13,7 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
-    const targetDate = new Date('2024-03-15').getTime();
+    const targetDate = new Date('2025-04-12').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
