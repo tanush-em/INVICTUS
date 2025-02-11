@@ -29,8 +29,8 @@ export default function PassesSection() {
   return (
     <section className="py-20 px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-5xl font-bold mb-8 text-center">Passes</h2>
-        <p className="text-center mb-16">sample text sample text sample text sample textsample text sample text sample text sample text sample text sample text sample text sample text</p>
+        <h2 className="text-5xl font-bold mb-8 text-center">Event Passes</h2>
+        <p className="text-center mb-16">sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {passes.map((pass, index) => (
             <motion.div

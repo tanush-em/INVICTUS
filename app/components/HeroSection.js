@@ -40,7 +40,7 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         className="text-6xl font-bold mb-8 bg-gradient-to-r from-emerald-500 to-blue-500 text-transparent bg-clip-text"
       >
-        SYMPOSIUM 2024
+        INVICTUS 2025
       </motion.h1>
       <div className="grid grid-cols-4 gap-4">
         {Object.entries(timeLeft).map(([unit, value]) => (
