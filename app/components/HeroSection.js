@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Crown, Divide } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function HeroSection() {
@@ -33,7 +32,7 @@ export default function HeroSection() {
         transition={{ duration: 1 }}
         className="mb-12"
       >
-        <Crown className="w-32 h-32 text-emerald-500" />
+        <img src="logo.png" alt="Logo" className="w-96 h-96" />
       </motion.div>
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
