@@ -1,0 +1,32 @@
+import './globals.css';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata = {
+  title: 'College Symposium 2024',
+  description: 'Join us for an extraordinary academic experience',
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en" className="dark">
+      <body className={inter.className}>
+        {children}
+        <footer className="py-8 px-8 border-t border-gray-800">
+          <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div className="text-gray-400 mb-4 md:mb-0">
+              © 2024 INVICTUS. All rights reserved.
+            </div>
+            <div className="flex space-x-6">
+              <a href="#" className="text-gray-400 hover:text-emerald-500">About Us</a>
+              <a href="#" className="text-gray-400 hover:text-emerald-500">Events</a>
+              <a href="#" className="text-gray-400 hover:text-emerald-500">Get Passes</a>
+              <a href="#" className="text-gray-400 hover:text-emerald-500">Contact</a>
+            </div>
+          </div>
+        </footer>
+      </body>
+    </html>
+  );
+}
