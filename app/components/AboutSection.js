@@ -63,10 +63,10 @@ export default function AboutSection() {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="p-6 rounded-xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 hover:from-gray-800 hover:to-gray-900 transition-all duration-300 border border-gray-700 hover:border-gray-600 group"
+              className="p-4 rounded-xl bg-gradient-to-br from-gray-800/50 to-gray-900/50 hover:from-gray-800 hover:to-gray-900 transition-all duration-300 border border-gray-700 hover:border-gray-600 group"
             >
               <div className="flex flex-col items-center text-center">
-                <feature.icon className={`w-12 h-12 mb-2 ${feature.color} group-hover:scale-110 transition-transform duration-300`} />
+                <feature.icon className={`w-12 h-12 mb-4 ${feature.color} group-hover:scale-110 transition-transform duration-300`} />
                 <h3 className="font-bold text-xl mb-2">{feature.title}</h3>
                 <p className="text-sm  text-gray-300 mb-1">{feature.subtitle}</p>
                 <p className="text-sm text-white">{feature.description}</p>
