@@ -11,6 +11,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       <HeroSection />
       <AboutSection />
+      <h2 className="text-5xl font-bold mb-8 text-center">Event Passes</h2>
       <EventsSection />
       <PassesSection />
       <ContactSection />
