@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, ChevronLeft, ChevronRight } from "lucide-react";
@@ -77,6 +77,23 @@ const Carousel = ({ items }) => {
   const [selectedEvent, setSelectedEvent] = useState(null);
   const scrollRef = useRef(null);
 
+  // Add effect to center the first card on desktop
+  useEffect(() => {
+    const centerFirstCard = () => {
+      if (scrollRef.current && window.innerWidth >= 1024) { // desktop breakpoint
+        const container = scrollRef.current;
+        const containerWidth = container.offsetWidth;
+        const cardWidth = 300; // width of our cards
+        const scrollPosition = (cardWidth / 2) + ((containerWidth - cardWidth) / 2) - cardWidth;
+        container.scrollLeft = scrollPosition;
+      }
+    };
+
+    centerFirstCard();
+    window.addEventListener('resize', centerFirstCard);
+    return () => window.removeEventListener('resize', centerFirstCard);
+  }, []);
+
   const handleCardClick = (index, event) => {
     setActiveIndex(index);
     setSelectedEvent(event);
@@ -103,9 +120,17 @@ const Carousel = ({ items }) => {
     <div className="relative w-full">
       <div 
         ref={scrollRef}
-        className="flex overflow-x-auto gap-4 px-4 py-8 scroll-smooth hide-scrollbar"
-        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+        className="flex overflow-x-auto gap-4 px-4 md:px-0 py-8 scroll-smooth hide-scrollbar relative"
+        style={{ 
+          scrollbarWidth: 'none', 
+          msOverflowStyle: 'none',
+          maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
+          WebkitMaskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)'
+        }}
       >
+        {/* Add initial spacing div for desktop */}
+        <div className="hidden lg:block flex-shrink-0 w-[calc(50vw-150px)]" />
+        
         {items.map((card, index) => (
           <Card
             key={index}
@@ -114,6 +139,9 @@ const Carousel = ({ items }) => {
             onClick={() => handleCardClick(index, card)}
           />
         ))}
+        
+        {/* Add final spacing div for desktop */}
+        <div className="hidden lg:block flex-shrink-0 w-[calc(50vw-150px)]" />
       </div>
 
       {/* Navigation Buttons */}
@@ -259,15 +287,17 @@ export const EventsCarouselSection = () => {
       description: "Display your digital artwork and witness amazing creations from talented artists."
     }
   ];
+  
 
   return (
-    <div className="w-full bg-gradient-to-b from-black to-emerald-950/20 py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-5xl font-bold text-neutral-200 mb-12">
+    <div className="w-full py-20">
+      <h2 className="text-5xl font-bold mb-8 text-center">Events</h2>
+      <h2 className="max-w-7xl pl-4 mx-auto text-3xl font-bold text-neutral-200 mb-2">
         Technical Events
       </h2>
       <Carousel items={technicalEvents} />
 
-      <h2 className="max-w-7xl pl-4 mx-auto text-5xl font-bold text-neutral-200 mt-20 mb-12">
+      <h2 className="max-w-7xl pl-4 mx-auto text-3xl font-bold text-neutral-200 mt-20 mb-2">
         Non-Technical Events
       </h2>
       <Carousel items={nonTechnicalEvents} />
