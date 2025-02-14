@@ -54,7 +54,7 @@ const Card = ({ card, isActive, onClick }) => {
       className={`relative flex-shrink-0 w-[300px] h-[450px] rounded-xl overflow-hidden cursor-pointer transition-all duration-300 transform
         ${isActive ? 'scale-100 opacity-100 -translate-y-2' : 'scale-95 opacity-70'}
         hover:opacity-100 hover:scale-[0.98] hover:-translate-y-1`}
-      onClick={onClick}
+      onClick={() => onClick(card)} // Pass the card data to the onClick handler
     >
       <div className="relative w-full h-full">
         <Image
@@ -96,8 +96,7 @@ const Carousel = ({ items }) => {
     return () => window.removeEventListener('resize', centerFirstCard);
   }, []);
 
-  const handleCardClick = (index, event) => {
-    setActiveIndex(index);
+  const handleCardClick = (event) => {
     setSelectedEvent(event);
     setModalOpen(true);
   };
@@ -137,7 +136,7 @@ const Carousel = ({ items }) => {
             key={index}
             card={card}
             isActive={activeIndex === index}
-            onClick={() => handleCardClick(index, card)}
+            onClick={handleCardClick} // Pass the handleCardClick function
           />
         ))}
 
