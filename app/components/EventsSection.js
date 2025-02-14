@@ -1,15 +1,18 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, MapPin, ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 const EventModal = ({ event, isOpen, onClose }) => {
   if (!event) return null;
-  
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-[600px] bg-neutral-900 text-white border-neutral-800">
+        <DialogTitle className="sr-only">
+          {event.title} - Event Details
+        </DialogTitle>
         <div className="relative w-full h-[200px] mb-4">
           <Image
             src={event.src}
@@ -77,13 +80,12 @@ const Carousel = ({ items }) => {
   const [selectedEvent, setSelectedEvent] = useState(null);
   const scrollRef = useRef(null);
 
-  // Add effect to center the first card on desktop
   useEffect(() => {
     const centerFirstCard = () => {
-      if (scrollRef.current && window.innerWidth >= 1024) { // desktop breakpoint
+      if (scrollRef.current && window.innerWidth >= 1024) {
         const container = scrollRef.current;
         const containerWidth = container.offsetWidth;
-        const cardWidth = 300; // width of our cards
+        const cardWidth = 300; // Match this with the card width in the Card component
         const scrollPosition = (cardWidth / 2) + ((containerWidth - cardWidth) / 2) - cardWidth;
         container.scrollLeft = scrollPosition;
       }
@@ -103,12 +105,12 @@ const Carousel = ({ items }) => {
   const scroll = (direction) => {
     const container = scrollRef.current;
     const scrollAmount = 320; // Card width + gap
-    
+
     if (container) {
-      const newScroll = direction === 'left' 
+      const newScroll = direction === 'left'
         ? container.scrollLeft - scrollAmount
         : container.scrollLeft + scrollAmount;
-      
+
       container.scrollTo({
         left: newScroll,
         behavior: 'smooth'
@@ -118,19 +120,18 @@ const Carousel = ({ items }) => {
 
   return (
     <div className="relative w-full">
-      <div 
+      <div
         ref={scrollRef}
         className="flex overflow-x-auto gap-4 px-4 md:px-0 py-8 scroll-smooth hide-scrollbar relative"
-        style={{ 
-          scrollbarWidth: 'none', 
+        style={{
+          scrollbarWidth: 'none',
           msOverflowStyle: 'none',
           maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
           WebkitMaskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)'
         }}
       >
-        {/* Add initial spacing div for desktop */}
-        <div className="hidden lg:block flex-shrink-0 w-[calc(50vw-150px)]" />
-        
+        <div className="hidden lg:block flex-shrink-0 w-[calc(65vw-150px)]" />
+
         {items.map((card, index) => (
           <Card
             key={index}
@@ -139,26 +140,24 @@ const Carousel = ({ items }) => {
             onClick={() => handleCardClick(index, card)}
           />
         ))}
-        
-        {/* Add final spacing div for desktop */}
-        <div className="hidden lg:block flex-shrink-0 w-[calc(50vw-150px)]" />
+
+        <div className="hidden lg:block flex-shrink-0 w-[calc(65vw-150px)]" />
       </div>
 
-      {/* Navigation Buttons */}
       <button
         onClick={() => scroll('left')}
-        className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full backdrop-blur-sm transition-all"
+        className="absolute left-2 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-600 text-black p-2 rounded-full backdrop-blur-sm transition-all"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
       <button
         onClick={() => scroll('right')}
-        className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full backdrop-blur-sm transition-all"
+        className="absolute right-2 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-600 text-black p-2 rounded-full backdrop-blur-sm transition-all"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
 
-      <EventModal 
+      <EventModal
         event={selectedEvent}
         isOpen={modalOpen}
         onClose={() => setModalOpen(false)}
@@ -287,17 +286,16 @@ export const EventsCarouselSection = () => {
       description: "Display your digital artwork and witness amazing creations from talented artists."
     }
   ];
-  
 
   return (
     <div className="w-full py-20">
       <h2 className="text-5xl font-bold mb-8 text-center">Events</h2>
-      <h2 className="max-w-7xl pl-4 mx-auto text-3xl font-bold text-neutral-200 mb-2">
+      <h2 className="max-w-7xl pl-4 mx-auto text-4xl font-bold text-neutral-200 mb-2">
         Technical Events
       </h2>
       <Carousel items={technicalEvents} />
 
-      <h2 className="max-w-7xl pl-4 mx-auto text-3xl font-bold text-neutral-200 mt-20 mb-2">
+      <h2 className="max-w-7xl pl-4 mx-auto text-4xl font-bold text-neutral-200 mt-20 mb-2">
         Non-Technical Events
       </h2>
       <Carousel items={nonTechnicalEvents} />
