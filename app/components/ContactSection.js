@@ -3,7 +3,8 @@ import { Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 
 const ContactSection = () => {
   return (
-    <section className="py-20 px-8 bg-gradient-to-b from-emerald-950/20 to-black">
+    <section className="py-20 px-8">
+
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold mb-12 text-center">Contact Us</h2>
 

@@ -8,12 +8,12 @@ import ContactSection from './components/ContactSection';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      <HeroSection />
-      <AboutSection />
-      <EventsSection />
-      <PassesSection />
-      <ContactSection />
-    </main>
+      <main className="min-h-screen bg-black text-white">
+        <HeroSection />
+        <AboutSection />
+        <EventsSection />
+        <PassesSection />
+        <ContactSection />
+      </main>
   );
 }

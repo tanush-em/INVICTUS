@@ -1,5 +1,7 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
+import { ShootingStars } from "@/components/ui/shooting-stars";
+import { StarsBackground } from "@/components/ui/stars-background";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -11,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
+      <body className={`${inter.className} relative`}>
+        <ShootingStars className="absolute top-0 left-0 w-full h-full -z-100" />
+        <StarsBackground className="absolute top-0 left-0 w-full h-full -z-100" />
         {children}
         <footer className="py-8 px-8 border-t border-gray-800">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
