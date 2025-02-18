@@ -17,12 +17,10 @@ export default function RootLayout({ children }) {
         <ShootingStars className="absolute top-0 left-0 w-full h-full -z-100" />
         <StarsBackground className="absolute top-0 left-0 w-full h-full -z-100" />
         {children}
-        <footer className="py-8 px-8 border-t border-gray-800">
-          <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 mb-4 md:mb-0">
-              © 2024 INVICTUS. All rights reserved.
-            </div>
-            <div className="flex space-x-6">
+        <footer className="py-8 px-6 border-t border-gray-800">
+          <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <div className="text-gray-400 mb-4 md:mb-0">© 2024 INVICTUS. All rights reserved.</div>
+            <div className="flex flex-col sm:flex-row sm:space-x-6 space-y-4 sm:space-y-0">
               <a href="#" className="text-gray-400 hover:text-emerald-500">About Us</a>
               <a href="#" className="text-gray-400 hover:text-emerald-500">Events</a>
               <a href="#" className="text-gray-400 hover:text-emerald-500">Get Passes</a>
