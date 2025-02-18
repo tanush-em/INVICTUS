@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
-
 export default function HeroSection() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
@@ -26,29 +25,33 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative h-screen flex flex-col items-center justify-center">
+    <section className="relative h-screen flex flex-col items-center justify-center text-center z-20">
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 1 }}
-        className="mb-12"
+        className="mb-12 z-20"
       >
-        <img src="logo.png" alt="Logo" className="w-96 h-96" />
+        <img src="logo.png" alt="Logo" className="w-[200px] md:w-[300px] lg:w-[400px] h-auto" />
       </motion.div>
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-6xl font-bold mb-8 bg-gradient-to-r from-emerald-500 to-blue-500 text-transparent bg-clip-text"
+        className="text-6xl font-bold mb-8 bg-gradient-to-r from-emerald-500 to-blue-500 text-transparent bg-clip-text z-20"
       >
         INVICTUS 2025
       </motion.h1>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 z-20">
         {Object.entries(timeLeft).map(([unit, value]) => (
           <div key={unit} className="text-center">
             <div className="text-4xl font-bold">{value}</div>
             <div className="text-sm uppercase">{unit}</div>
           </div>
         ))}
+      </div>
+      <div className="mt-12 text-center max-w-2xl z-20">
+        <h2 className="text-4xl font-bold text-white mb-4">xxxxxxxxxxxxxxxxxxxxxxxx</h2>
+        <p className="text-lg text-gray-300">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
       </div>
     </section>
   );
