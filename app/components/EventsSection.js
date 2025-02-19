@@ -56,7 +56,7 @@ const EventsSection = () => {
       title: "Technical Paper Presentation",
       src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87",
       description: "Present your research papers and innovative ideas in this prestigious technical paper presentation competition.",
-      redirectLink: "/events/technical-paper-presentation"
+      redirectLink: "/events/sample"
     },
     {
       title: "24-Hour Code Sprint",
