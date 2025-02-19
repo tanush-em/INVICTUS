@@ -20,7 +20,7 @@ import { Badge } from "@/components/ui/badge";
 
 
 function getEventSlugs() {
-    const contentDir = join(process.cwd(), 'content'); 
+    const contentDir = join(process.cwd(), 'content');
 
     if (!fs.existsSync(contentDir)) {
         console.warn('Event content directory not found:', contentDir);
