@@ -1,88 +1,78 @@
 ---
-title: Data Science Learnathon 2025
-description: A 3-day hands-on Data Science workshop, where students learn, build, and compete!
-date: 2025-02-20T10:00:00Z
-location: Online
-event_type: "upcoming"
-tags: ["data science", "machine learning", "workshop", "competition"]
+title: Solo Singing Championship 2025
+description: A national-level solo singing competition blending music and technology in an innovative format.
+location: TRP Hall
+event_type: "non-tech"
+tags: ["music", "technology", "competition", "solo singing", "national level"]
 ---
 
-# 🎓 Adeptus Data Science Learnathon 2025
+# 🎤 TechTunes Solo Singing Championship 2025
 
-## 🚀 A Hands-On 3-Day Data Science Workshop
+## 🎶 A National-Level Tech-Infused Singing Competition
 
-![Learnathon Banner](poster.png)
-*Master data science skills and compete in an exciting challenge!*
+![TechTunes Banner](techtunes_banner.png)
+
+*Unleash your voice, backed by the power of technology!*
 
 ## 🏆 About The Event
-The **Adeptus Data Science Learnathon** is an **online** workshop designed for students to dive into data science through hands-on projects. Over **3 days**, participants will **learn, experiment, and compete** using real-world datasets.
+The **TechTunes Solo Singing Championship** is a unique blend of **music and technology**, where talented singers compete on a grand stage at the **National Tech Symposium**. With advanced acoustic systems, AI-powered vocal analysis, and real-time sound effects, this event pushes the boundaries of **tech-driven musical performance**.
 
 ### 📅 Event Details
-- **Dates**: 21 February 2025 to 23 February 2025
-- **Mode**: Online
-- **Daily Time Commitment**: 2-3 hours
-- **Team Size**: Solo or Teams (2-3 members)
-- **Registration Fee**: Free
+- **Date**: 22 February 2025  
+- **Venue**: Auditorium Hall, National Tech Symposium  
+- **Performance Mode**: Live with tech-enhanced acoustics  
+- **Registration Fee**: Free  
+- **Eligibility**: Open to all students and independent performers  
 
-## 📚 Learnathon Structure
-The learnathon is structured in such a way that it helps even complete beginners to get into the space of data science and get their hands dirty on basic projects. 
+## 🎤 Competition Format
+The event is structured to incorporate **real-time sound processing and AI-based feedback**, providing a futuristic experience for both performers and audiences.
 
-### **Day 1: Foundations of Data Science & EDA**
-🛠 **Topics Covered:**
-- Introduction to Data Science
-- Python Libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`)
-- Data Cleaning & Handling Missing Values
-- Exploratory Data Analysis (EDA)
-- Hands-on Exercise: **Analyzing & Visualizing a Dataset**
+### **🎵 Round 1: Audition Round**
+🛠 **Format:**  
+- Participants perform a song of their choice (Max 3 minutes).  
+- AI-based vocal analysis will assess pitch accuracy, tone, and stability.  
+- Judges will provide feedback based on vocal skill and stage presence.  
 
-📌 **Task:** Perform **EDA on a given dataset** and submit insights.
+📌 **Selection:** Top 20 performers qualify for the next round.
 
 ---
 
-### **Day 2: Machine Learning Fundamentals**
-🛠 **Topics Covered:**
-- Supervised Learning (Regression & Classification)
-- Feature Engineering & Selection
-- Model Training using `scikit-learn`
-- Model Evaluation (Accuracy, Precision, Recall, F1-score)
-- Hands-on Exercise: **Train & Evaluate a Classification Model**
+### **🎼 Round 2: Tech-Infused Performance**
+🛠 **Format:**  
+- Contestants will integrate technology into their performance.
+- Use of **AI-powered vocal effects, loops, and autotuning** (optional).
+- Performance judged on **vocal creativity and tech integration**.  
 
-📌 **Task:** Build a **classification model** and report metrics.
+📌 **Selection:** Top 5 move to the final showdown.
 
 ---
 
-### **Day 3: Final Competition - Solve a Real-World Problem**
-🏁 **Challenge:** Participants will be given a **synthetic dataset** to preprocess, analyze, and build a predictive model.
+### **🏁 Grand Finale: The Ultimate Showdown**
+🏆 **Final Challenge:** Perform live with **dynamic stage lighting, vocal modulations, and augmented reality effects**. 
 
-📌 **Final Submission:**
-- Preprocessed Data & Insights
-- Model Predictions
-- Report on Findings & Approach
-
-🏆 **Evaluation Criteria:**
-- Data Cleaning & Analysis (30%)
-- Model Performance & Accuracy (30%)
-- Feature Engineering & Creativity (20%)
-- Report & Presentation (20%)
+📌 **Final Judging Criteria:**
+- Vocal Performance & Expression (40%)
+- Innovation with Tech Elements (30%)
+- Audience Engagement (20%)
+- Overall Presentation (10%)
 
 ---
 
 ## 🎁 What You Get
-- Interactive **Jupyter Notebooks & PDFs**
-- Hands-on **experience with real datasets**
-- **Networking** with fellow data enthusiasts
-- **Certificates** for all participants
-- **Prizes for top performers**
+- **Exclusive AI-powered vocal feedback reports**  
+- **Performance video with AR effects**  
+- **Certificates & prizes for top performers**  
+- **Networking opportunities with music-tech professionals**  
 
 ## 📝 Registration Process
 1. Fill out the online registration form.
-2. Receive datasets & learning materials.
-3. Participate, learn, and compete!
+2. Receive event details & guidelines.
+3. Perform, innovate, and compete!
 
-[Register Now](https://forms.gle/UKNcT2eRzF2GaFsTA) 
+[Register Now](https://forms.gle/TechTunes2025)
 
 ## 📞 Contact Information
-- Event Coordinator: [TBA
-- Technical Support: [TBA]
+- Event Coordinator: [TBA]  
+- Technical Support: [TBA]  
 
 ---

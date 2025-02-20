@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
       <body className={`${inter.className} relative overflow-visible`}>
-        <ShootingStars numStars={6} className="absolute top-0 left-0 w-full h-full z-0" />
+        <ShootingStars numStars={4} className="absolute top-0 left-0 w-full h-full z-0" />
         <StarsBackground className="absolute top-0 left-0 w-full h-full z-0" />
         {children}
         <footer className="py-8 px-6 border-t border-gray-800">
