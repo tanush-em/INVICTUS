@@ -54,7 +54,7 @@ const EventsSection = () => {
   const technicalEvents = [
     {
       title: "Escape Room as a coding event",
-      src: "vicky.jpeg",
+      src: "escape-room.jpeg",
       description: "Present your research papers and innovative ideas in this prestigious technical paper presentation competition.",
       redirectLink: "/events/sample"
     },
