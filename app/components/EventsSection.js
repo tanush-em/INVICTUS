@@ -92,6 +92,12 @@ const EventsSection = () => {
 
   const nonTechnicalEvents = [
     {
+      title: "Cricket - Football",
+      src: "turf.jpeg",
+      description: "Display your digital artwork and witness amazing creations.",
+      redirectLink: "/events/digital-art"
+    },
+    {
       title: "Solo Singing",
       src: "solo-singing.jpeg",
       description: "Showcase your musical talent in this epic battle of bands.",
@@ -104,29 +110,23 @@ const EventsSection = () => {
       redirectLink: "/events/sports-meet"
     },
     {
-      title: "Digital Art Exhibition",
-      src: "https://images.unsplash.com/photo-1561214115-f2f134cc4912",
+      title: "Solo Dance",
+      src: "solo-dance.jpeg",
       description: "Display your digital artwork and witness amazing creations.",
       redirectLink: "/events/digital-art"
     },
     {
 
-      title: "Battle of Bands",
-      src: "https://images.unsplash.com/photo-1561489413-985b06da5bee",
+      title: "Corporate Walk",
+      src: "ramp-walk.jpeg",
       description: "Showcase your musical talent in this epic battle of bands.",
       redirectLink: "/events/battle-of-bands"
     },
     {
-      title: "Inter-College Sports Meet",
-      src: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211",
+      title: "Cine Verse",
+      src: "cineverse.jpeg",
       description: "Compete in various sports events and represent your college.",
       redirectLink: "/events/sports-meet"
-    },
-    {
-      title: "Digital Art Exhibition",
-      src: "https://images.unsplash.com/photo-1561214115-f2f134cc4912",
-      description: "Display your digital artwork and witness amazing creations.",
-      redirectLink: "/events/digital-art"
     }
   ];
 
