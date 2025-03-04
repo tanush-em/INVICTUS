@@ -53,14 +53,14 @@ const FlipCard = ({ event }) => {
 const EventsSection = () => {
   const technicalEvents = [
     {
-      title: "Technical Paper Presentation",
-      src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87",
+      title: "Escape Room as a coding event",
+      src: "vicky.jpeg",
       description: "Present your research papers and innovative ideas in this prestigious technical paper presentation competition.",
       redirectLink: "/events/sample"
     },
     {
-      title: "24-Hour Code Sprint",
-      src: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0",
+      title: "Paper presentation",
+      src: "paper-presentation.jpeg",
       description: "Join our intensive 24-hour coding challenge to solve real-world problems.",
       redirectLink: "/events/code-sprint"
     },
@@ -92,14 +92,14 @@ const EventsSection = () => {
 
   const nonTechnicalEvents = [
     {
-      title: "Battle of Bands",
-      src: "https://images.unsplash.com/photo-1561489413-985b06da5bee",
+      title: "Solo Singing",
+      src: "solo-singing.jpeg",
       description: "Showcase your musical talent in this epic battle of bands.",
       redirectLink: "/events/battle-of-bands"
     },
     {
-      title: "Inter-College Sports Meet",
-      src: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211",
+      title: "Murder Mystery",
+      src: "murder-mystery.jpeg",
       description: "Compete in various sports events and represent your college.",
       redirectLink: "/events/sports-meet"
     },
