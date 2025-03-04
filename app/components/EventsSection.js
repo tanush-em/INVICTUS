@@ -56,7 +56,7 @@ const EventsSection = () => {
       title: "Escape Room as a coding event",
       src: "escape-room.jpeg",
       description: "Present your research papers and innovative ideas in this prestigious technical paper presentation competition.",
-      redirectLink: "/events/sample"
+      redirectLink: "/events/escape-room"
     },
     {
       title: "Paper presentation",
@@ -95,38 +95,38 @@ const EventsSection = () => {
       title: "Cricket - Football",
       src: "turf.jpeg",
       description: "Display your digital artwork and witness amazing creations.",
-      redirectLink: "/events/digital-art"
+      redirectLink: "/events/cricket-football"
     },
     {
       title: "Solo Singing",
       src: "solo-singing.jpeg",
       description: "Showcase your musical talent in this epic battle of bands.",
-      redirectLink: "/events/battle-of-bands"
+      redirectLink: "/events/solo-singing"
     },
     {
       title: "Murder Mystery",
       src: "murder-mystery.jpeg",
       description: "Compete in various sports events and represent your college.",
-      redirectLink: "/events/sports-meet"
+      redirectLink: "/events/murder-mystery"
     },
     {
       title: "Solo Dance",
       src: "solo-dance.jpeg",
       description: "Display your digital artwork and witness amazing creations.",
-      redirectLink: "/events/digital-art"
+      redirectLink: "/events/solo-dance"
     },
     {
 
       title: "Corporate Walk",
       src: "ramp-walk.jpeg",
       description: "Showcase your musical talent in this epic battle of bands.",
-      redirectLink: "/events/battle-of-bands"
+      redirectLink: "/events/corporate-walk"
     },
     {
       title: "Cine Verse",
       src: "cineverse.jpeg",
       description: "Compete in various sports events and represent your college.",
-      redirectLink: "/events/sports-meet"
+      redirectLink: "/events/cine-verse"
     }
   ];
 
