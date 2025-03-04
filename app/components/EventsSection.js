@@ -62,7 +62,7 @@ const EventsSection = () => {
       title: "Paper presentation",
       src: "paper-presentation.jpeg",
       description: "Join our intensive 24-hour coding challenge to solve real-world problems.",
-      redirectLink: "/events/code-sprint"
+      redirectLink: "/events/paper-presentation"
     },
     {
       title: "AI & Machine Learning Workshop",
