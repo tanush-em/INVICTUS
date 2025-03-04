@@ -27,7 +27,6 @@ const PassDetails = () => {
         <h2 className="text-5xl font-bold mb-12 text-center">Passes</h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Pass Image Section */}
           <motion.div 
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -43,14 +42,13 @@ const PassDetails = () => {
             />
           </motion.div>
 
-          {/* Pass Benefits Section */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="bg-gradient-to-br from-gray-100 to-gray-200 p-8 rounded-2xl"
+            className="bg-gray-400 p-8 rounded-2xl"
           >
-            <h3 className="text-3xl font-bold mb-4 text-gray-800">{pass.title}</h3>
+            <h3 className="text-4xl font-bold mb-4 text-gray-800">{pass.title}</h3>
             
             <p className="text-gray-600 mb-6">{pass.description}</p>
             
@@ -60,7 +58,7 @@ const PassDetails = () => {
               <h4 className="text-xl font-semibold text-gray-700 mb-4">Pass Benefits:</h4>
               {pass.features.map((feature, index) => (
                 <div key={index} className="flex items-center text-gray-700">
-                  <CheckCircle className="w-5 h-5 mr-3 text-green-500" />
+                  <CheckCircle className="w-5 h-5 mr-3 text-blue-700" />
                   <span>{feature}</span>
                 </div>
               ))}
