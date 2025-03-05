@@ -1,17 +1,18 @@
+import Image from 'next/image';
+
 export default function PaperPresentation() {
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <h1 className="text-4xl font-bold text-center">Paper Presentation</h1>
       
-      {/* Event Image */}
-      <div className="mt-4 flex justify-center">
-        <img src="/path-to-your-image.jpg" alt="Paper Presentation Event" className="rounded-lg shadow-md max-w-full h-auto" />
-      </div>
-
       <p className="mt-4 text-gray-300 text-lg">
         Showcase your research and ideas in AI, ML, and emerging technologies. Compete in two rounds—submit a compelling abstract and present your insights in front of experts. 
         Gain valuable feedback, refine your presentation skills, and stand out in the world of innovation.
       </p>
+
+      <div className="mt-4 flex justify-center">
+        <Image src="/paper-presentation.jpeg" alt="Escape Logic Event" width={500} height={300} className="rounded-lg shadow-md" />
+      </div>
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>

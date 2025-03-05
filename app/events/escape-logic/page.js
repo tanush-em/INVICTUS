@@ -1,17 +1,18 @@
+import Image from 'next/image';
+
 export default function EscapeLogic() {
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <h1 className="text-4xl font-bold text-center">Escape Logic: The Ultimate Coding Quest</h1>
-      
-      {/* Event Image */}
-      <div className="mt-4 flex justify-center">
-        <img src="/path-to-your-image.jpg" alt="Escape Logic Event" className="rounded-lg shadow-md max-w-full h-auto" />
-      </div>
 
       <p className="mt-4 text-gray-300 text-lg">
-        Do you have what it takes to escape? Join this thrilling Escape Room-Themed Coding Event, where logic and programming skills unlock your freedom! 
+        Do you have what it takes to escape? Join this thrilling Escape Room-Themed Coding Event, where logic and programming skills unlock your freedom!
         Solve mystery-driven coding challenges and navigate the Escape Matrix using your problem-solving expertise. Only the smartest minds will escape!
       </p>
+
+      <div className="mt-4 flex justify-center">
+        <Image src="/escape-logic.jpeg" alt="Escape Logic Event" width={500} height={300} className="rounded-lg shadow-md" />
+      </div>
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
