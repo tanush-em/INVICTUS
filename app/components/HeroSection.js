@@ -30,9 +30,9 @@ export default function HeroSection() {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 1 }}
-        className="mb-12 z-20"
+        className="mb-8 mt-8 z-20"
       >
-        <img src="logo.png" alt="Logo" className="w-[200px] md:w-[300px] lg:w-[400px] h-auto" />
+        <img src="logo.png" alt="Logo" className="w-[200px] md:w-[250px] lg:w-[300px] h-auto" />
       </motion.div>
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
@@ -41,6 +41,8 @@ export default function HeroSection() {
       >
         INVICTUS 2025
       </motion.h1>
+      <h2 className="text-4xl font-bold text-white mb-2">Department Of Computer Science and Engineering</h2>
+      <h2 className="text-3xl font-bold text-white mb-4">(Artificial Intelligence & Machine Learning)</h2>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 z-20">
         {Object.entries(timeLeft).map(([unit, value]) => (
           <div key={unit} className="text-center">
@@ -48,10 +50,6 @@ export default function HeroSection() {
             <div className="text-sm uppercase">{unit}</div>
           </div>
         ))}
-      </div>
-      <div className="mt-12 text-center max-w-2xl z-20">
-        <h2 className="text-4xl font-bold text-white mb-4">xxxxxxxxxxxxxxxxxxxxxxxx</h2>
-        <p className="text-lg text-gray-300">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
       </div>
     </section>
   );
