@@ -1,37 +1,51 @@
 export default function PaperPresentation() {
-    return (
-      <div className="p-6 max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-center">Paper Presentation</h1>
-        
-        <p className="mt-4 text-gray-300 text-lg">
-          Showcase your research and innovative ideas in front of panel of judges. 
-          howcase your research and innovative ideas in front of panel of judges. 
-          howcase your research and innovative ideas in front of panel of judges. 
-        </p>
-  
-        <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold">Event Details</h2>
-          <p className="mt-2"><strong>Date:</strong> March 10, 2025</p>
-          <p><strong>Venue:</strong> Auditorium Hall A</p>
-          <p><strong>Time:</strong> 10:00 AM - 1:00 PM</p>
-        </div>
-  
-        <div className="mt-6">
-          <h2 className="text-2xl font-semibold">Rules & Guidelines</h2>
-          <ul className="list-disc list-inside mt-2 text-lg">
-            <li>Maximum 2 participants per team.</li>
-            <li>Presentation time: 10 minutes + Q&A.</li>
-            <li>Only original research and review papers are allowed.</li>
-          </ul>
-        </div>
-  
-        <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold">Contact Information</h2>
-          <p className="mt-2"><strong>Name:</strong> Vignesh</p>
-          <p><strong>Email:</strong> vignesh@gmail.com</p>
-          <p><strong>Phone:</strong> +91 98765 43210</p>
-        </div>
+  return (
+    <div className="p-6 max-w-3xl mx-auto">
+      <h1 className="text-4xl font-bold text-center">Paper Presentation</h1>
+      
+      {/* Event Image */}
+      <div className="mt-4 flex justify-center">
+        <img src="/path-to-your-image.jpg" alt="Paper Presentation Event" className="rounded-lg shadow-md max-w-full h-auto" />
       </div>
-    );
-  }
-  
+
+      <p className="mt-4 text-gray-300 text-lg">
+        Showcase your research and ideas in AI, ML, and emerging technologies. Compete in two rounds—submit a compelling abstract and present your insights in front of experts. 
+        Gain valuable feedback, refine your presentation skills, and stand out in the world of innovation.
+      </p>
+
+      <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
+        <h2 className="text-2xl font-semibold">Participation Details</h2>
+        <p className="mt-2"><strong>Team Size:</strong> 3-6 members</p>
+        <p><strong>Entry Fee:</strong> Per team</p>
+        <p><strong>Location:</strong> Gallery Hall, Easwari Engineering College</p>
+      </div>
+
+      <div className="mt-6">
+        <h2 className="text-2xl font-semibold">Event Flow</h2>
+        <ul className="list-disc list-inside mt-2 text-lg">
+          <li><strong>Round 1 - Abstract Submission (Pre-Event):</strong> Teams submit a 300-word abstract summarizing their research. <strong>Submission Deadline:</strong> One week before the event.</li>
+          <li><strong>Round 2 - Presentation Round (6 min + 2 min Q&A):</strong> Teams deliver a structured and engaging presentation. Evaluation based on originality, clarity, research depth, and presentation skills.</li>
+        </ul>
+      </div>
+
+      <div className="mt-6">
+        <h2 className="text-2xl font-semibold">Rules & Regulations</h2>
+        <ul className="list-disc list-inside mt-2 text-lg">
+          <li>Papers must follow the IEEE format (max 8 pages, including references).</li>
+          <li>Original research only – plagiarism above 10% will lead to disqualification.</li>
+          <li>Presentations must be in English and adhere to the time limit.</li>
+          <li>Bring your laptop & charger.</li>
+          <li>Judges’ decisions are final.</li>
+        </ul>
+      </div>
+
+      <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
+        <h2 className="text-2xl font-semibold">Contact Information</h2>
+        <p className="mt-2"><strong>Name:</strong> Kaviya.R.V</p>
+        <p><strong>Phone:</strong> 8778575834</p>
+        <p className="mt-2"><strong>Name:</strong> Haseena</p>
+        <p><strong>Phone:</strong> 9884035664</p>
+      </div>
+    </div>
+  );
+}

@@ -33,7 +33,7 @@ export default function HeroSection() {
         transition={{ duration: 1 }}
         className="mb-8 mt-8 z-20"
       >
-        <img src="logo.png" alt="Logo" className="w-[200px] md:w-[250px] lg:w-[300px] h-auto" />
+        <img src="logo.png" alt="Logo" className="w-[250px] md:w-[300px] lg:w-[400px] h-auto" />
       </motion.div>
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
