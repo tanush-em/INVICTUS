@@ -92,22 +92,22 @@ const EventsSection = () => {
       redirectLink: "/events/cricket-football"
     },
     {
-      title: "Solo Singing",
+      title: "Soul’O Singing",
       src: "solo-singing.jpeg",
-      description: "Showcase your musical talent in this epic battle of bands.",
+      description: "Unleash your vocal prowess in Solo Pitch, the ultimate singing showdown! Whether you’re a professional singer or a bathroom singer ,this competition is your chance to captivate the audience and judges alike. Show off your range, stage presence, and musical expression to claim the title of the event!",
       redirectLink: "/events/solo-singing"
     },
     {
       title: "Murder Mystery",
       src: "murder-mystery.jpeg",
-      description: "Compete in various sports events and represent your college.",
+      description: "Step into the world of mystery and intrigue in Murder Mystery! Work as a team to crack puzzles, solve riddles, and hunt for clues across four thrilling rounds—from decoding crosswords and crime riddles to unmasking the murderer !",
       redirectLink: "/events/murder-mystery"
     },
     {
-      title: "Solo Dance",
-      src: "solo-dance.jpeg",
-      description: "Display your digital artwork and witness amazing creations.",
-      redirectLink: "/events/solo-dance"
+      title: "Dance Arena",
+      src: "dance-arena.jpeg",
+      description: "Take center stage and let your passion for dance shine in the Solo Dance competition! This is your moment to mesmerize the audience with your rhythm, expression, and creativity.",
+      redirectLink: "/events/dance-arena"
     },
     {
 
@@ -117,10 +117,10 @@ const EventsSection = () => {
       redirectLink: "/events/corporate-walk"
     },
     {
-      title: "Cine Verse",
-      src: "cineverse.jpeg",
-      description: "Compete in various sports events and represent your college.",
-      redirectLink: "/events/cine-verse"
+      title: "Kollywood Trivia",
+      src: "kollywood-trivia.jpeg",
+      description: "Step into the vibrant world of Kollywwood Trivia, where your passion for films takes center stage! Test your knowledge with challenging questions and clever clues that celebrate iconic movies, memorable tunes, and behind-the-scenes secrets.",
+      redirectLink: "/events/kollywood-trivia"
     }
   ];
 
