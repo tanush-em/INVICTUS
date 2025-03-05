@@ -65,14 +65,14 @@ const EventsSection = () => {
       redirectLink: "/events/paper-presentation"
     },
     {
-      title: "AI & Machine Learning Workshop",
-      src: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+      title: "Gamify Tech",
+      src: "gamify-tech.jpeg",
       description: "Learn about the latest developments in AI and ML through hands-on workshops.",
       redirectLink: "/events/ai-ml-workshop"
     },
     {
-      title: "Technical Paper Presentation",
-      src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87",
+      title: "AI Meme Creation",
+      src: "digital-meme.jpeg",
       description: "Present your research papers and innovative ideas in this prestigious technical paper presentation competition.",
       redirectLink: "/events/technical-paper-presentation"
     },
