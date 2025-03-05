@@ -1,37 +1,49 @@
-export default function PaperPresentation() {
+import Image from 'next/image';
+
+export default function CorporateWalk() {
     return (
       <div className="p-6 max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-center">Paper Presentation</h1>
+        <h1 className="text-4xl font-bold text-center">Corporate Walk</h1>
         
         <p className="mt-4 text-gray-300 text-lg">
-          Showcase your research and innovative ideas in front of panel of judges. 
-          howcase your research and innovative ideas in front of panel of judges. 
-          howcase your research and innovative ideas in front of panel of judges. 
+          "Be fierce, be bold, be unforgettable."
+          It's time to channel your inner corporate leader and own the stage with elegance and confidence! From power dressing to commanding presence, this is your moment to redefine corporate fashion and professionalism. Walk with attitude, grace, and a touch of charisma because success begins with the way you carry yourself!
         </p>
+
+        <div className='mt-4 flex justify-center'>
+          <Image src='/corporate-walk.jpeg' alt='Corporate Walk' width={500} height={300} className='rounded-lg shadow-md' />
+        </div>
   
         <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold">Event Details</h2>
-          <p className="mt-2"><strong>Date:</strong> March 10, 2025</p>
-          <p><strong>Venue:</strong> Auditorium Hall A</p>
-          <p><strong>Time:</strong> 10:00 AM - 1:00 PM</p>
+          <h2 className="text-2xl font-semibold">Participation Details</h2>
+          <p className="mt-2"><strong>Team Size:</strong> 6-8 members</p>
+          <p><strong>Entry Fee:</strong> ₹100 per person</p>
+          <p><strong>Location:</strong> TRP Auditorium</p>
         </div>
   
         <div className="mt-6">
-          <h2 className="text-2xl font-semibold">Rules & Guidelines</h2>
+          <h2 className="text-2xl font-semibold">Rules & Regulations</h2>
           <ul className="list-disc list-inside mt-2 text-lg">
-            <li>Maximum 2 participants per team.</li>
-            <li>Presentation time: 10 minutes + Q&A.</li>
-            <li>Only original research and review papers are allowed.</li>
+            <li>Participants must exhibit professional attire, grooming, and presentation that reflect a corporate attitude.</li>
+            <li>Each team should have 6-8 members.</li>
+            <li>Each team will have a total of 6 minutes (5 minutes for the performance + a 1-minute buffer).</li>
+            <li>Only formal wear is allowed. No costumes will be provided by the organizers—teams must arrange their own.</li>
+            <li>Each group should bring its own background music to complement the performance.</li>
+            <li>The use of fire-related items such as lighters, matches, and cigarettes is strictly prohibited.</li>
           </ul>
         </div>
   
         <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold">Contact Information</h2>
-          <p className="mt-2"><strong>Name:</strong> Vignesh</p>
-          <p><strong>Email:</strong> vignesh@gmail.com</p>
-          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p className="mt-2"><strong>Name:</strong> Saieed</p>
+          <p><strong>Email:</strong> saieedattar64@gmail.com</p>
+          <p><strong>Phone:</strong> 77589 63668</p>
+          <p className="mt-2"><strong>Name:</strong> Sujeth</p>
+          <p><strong>Phone:</strong> 91 2351 8942</p>
+          <p className="mt-2"><strong>Name:</strong> Mohseen</p>
+          <p><strong>Email:</strong> massian977@gmail.com</p>
+          <p><strong>Phone:</strong> 80721 18150</p>
         </div>
       </div>
     );
-  }
-  
+}

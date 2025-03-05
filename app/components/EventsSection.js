@@ -88,7 +88,7 @@ const EventsSection = () => {
     {
       title: "Cricket - Football",
       src: "turf.jpeg",
-      description: "Display your digital artwork and witness amazing creations.",
+      description: "Get ready for the ultimate showdown in Cricket Clash & Football Frenzy, where passion meets skill—whether you're smashing sixes or scoring goals, showcase your game and lead your team to victory!",
       redirectLink: "/events/cricket-football"
     },
     {
@@ -112,8 +112,8 @@ const EventsSection = () => {
     {
 
       title: "Corporate Walk",
-      src: "ramp-walk.jpeg",
-      description: "Showcase your musical talent in this epic battle of bands.",
+      src: "corporate-walk.jpeg",
+      description: "Step into professionalism with Corporate Walk, where confidence meets charisma! Stride with elegance, showcase your presence, and embody corporate excellence. Whether you’re a seasoned professional or a budding leader, this is your chance to leave a lasting impression and walk your way to success!",
       redirectLink: "/events/corporate-walk"
     },
     {

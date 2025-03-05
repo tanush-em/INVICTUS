@@ -26,7 +26,9 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-screen flex flex-col items-center justify-center text-center z-20">
-      <h2 className="text-3xl font-medium text-gray-400 mb-4">SRM Easwari Engineering College</h2>
+      <img src="eec-logo.png" alt="eec-logo" className="w-[550px] h-auto" />
+      <img src="atlas-logo.jpg" alt="atlas-logo" className="w-[550px] h-auto" />
+      <img src="adeptus-logo.png" alt="adeptus-logo" className="w-[550px] h-auto" />
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}

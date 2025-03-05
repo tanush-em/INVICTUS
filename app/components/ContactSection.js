@@ -19,9 +19,9 @@ const ContactSection = () => {
                 <Mail className="w-10 h-10 text-emerald-500" />
                 <h3 className="ml-4 text-xl font-semibold">Email Us</h3>
               </div>
-              <a href="mailto:info.invictus@gmail.com"
+              <a href="mailto:aimlatlas.visionary@gmail.com"
                 className="text-gray-300 text-lg hover:text-emerald-300 transition block ml-12">
-                info.invictus@gmail.com
+                aimlatlas.visionary@gmail.com
               </a>
             </div>
 
@@ -42,7 +42,7 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <div style={{ display: "flex", gap: "60px", margin: "40px",paddingLeft: "80-px" }}>
+            <div style={{ display: "flex", gap: "75px", margin: "50px",paddingLeft: "75px" }}>
               <Link href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/insta.png"
