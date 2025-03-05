@@ -8,24 +8,24 @@ const PassDetails = () => {
   const passes = [
     {
       title: "All Pass",
-      price: "₹ 1000",
-      description: "Elevate your experience with premium perks and special access.",
+      price: "₹ 350",
+      description: "xxxxxxxxxxxxxx",
       features: [
-        "All Silver Pass benefits",
-        "VIP lounge access",
-        "Meet-and-greet with speakers",
-        "Special merchandise",
+        "xxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxx",
       ],
     },
     {
       title: "Single Pass",
-      price: "According to event chosen",
-      description: "Your gateway to an unforgettable experience with exclusive benefits and access.",
+      price: "may vary acc to event",
+      description: "xxxxxxxxxxxxxx",
       features: [
-        "Unlimited Event Entry",
-        "Free food and drinks",
-        "Priority seating",
-        "Exclusive networking opportunities",
+        "xxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxx",
+        "xxxxxxxxxxxxxxx",
       ],
     }
   ];

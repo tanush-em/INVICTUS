@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import { Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 
 const ContactSection = () => {
@@ -40,15 +42,33 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <div className="p-6 rounded-xl bg-black/30 hover:bg-black/40 transition shadow-lg border border-gray-600">
-              <div className="flex items-center mb-2">
-                <MessageSquare className="w-10 h-10 text-green-500" />
-                <h3 className="ml-4 text-xl font-semibold">Whatsapp Us</h3>
-              </div>
-              <a href="https://chat.whatsapp.com/grouplink"
-                className="text-gray-300 text-lg hover:text-green-400 transition block ml-14">
-                <u>Receive Updates from Us</u>
-              </a>
+            <div style={{ display: "flex", gap: "60px", margin: "40px",paddingLeft: "80-px" }}>
+              <Link href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/insta.png"
+                  alt="Instagram"
+                  width={60}
+                  height={60}
+                />
+              </Link>
+
+              <Link href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/linkedin.png"
+                  alt="Instagram"
+                  width={60}
+                  height={60}
+                />
+              </Link>
+
+              <Link href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/whatsapp.png"
+                  alt="Instagram"
+                  width={60}
+                  height={60}
+                />
+              </Link>
             </div>
           </div>
 

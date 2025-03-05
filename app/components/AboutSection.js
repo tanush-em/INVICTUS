@@ -53,11 +53,13 @@ export default function AboutSection() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-16">
             <h2 className="text-5xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 lg:mb-8 text-white text-center">
-              About the Event
+              About INVICTUS
             </h2>
-            <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8 max-w-3xl mx-auto leading-relaxed px-4 md:px-0">
-              sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample
+            <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4 md:px-0">
+              INVICTUS, the flagship symposium of ATLAS and the pioneering event of the Department of CSE - AI & ML, is a celebration of innovation, resilience, and technological excellence.
             </p>
+            <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4 md:px-0">
+              Bringing together brilliant minds and cutting-edge ideas, INVICTUS features technical competitions, workshops, and insightful discussions to shape the future of AI. More than just an event, it marks the beginning of a legacy — one that empowers the next generation of innovators. Join us in this transformative journey and be part of the future !!!</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 px-2 md:px-0">
