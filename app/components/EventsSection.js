@@ -24,7 +24,7 @@ const FlipCard = ({ event }) => {
             />
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute bottom-0 left-0 right-0 p-4">
-              <h3 className="text-xl font-bold text-white">{event.title}</h3>
+              <h3 className="text-3xl font-bold text-white">{event.title}</h3>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ const FlipCard = ({ event }) => {
         <div className="absolute inset-0 h-full w-full rounded-xl bg-slate-800 [transform:rotateY(180deg)] [backface-visibility:hidden]">
           <div className="flex flex-col justify-between h-full p-6">
             <div>
-              <h3 className="text-xl font-bold text-white mb-4">{event.title}</h3>
+              <h3 className="text-3xl font-bold text-white mb-4">{event.title}</h3>
               <p className="text-gray-300 text-sm">{event.description}</p>
             </div>
             <a
@@ -41,7 +41,7 @@ const FlipCard = ({ event }) => {
               className="block w-full bg-white hover:bg-gray-100 text-slate-800 font-semibold py-2 px-4 rounded text-center transition-colors"
               onClick={(e) => e.stopPropagation()}
             >
-              Book Tickets
+              Register Now
             </a>
           </div>
         </div>
@@ -53,40 +53,34 @@ const FlipCard = ({ event }) => {
 const EventsSection = () => {
   const technicalEvents = [
     {
-      title: "Escape Room as a coding event",
-      src: "escape-room.jpeg",
-      description: "Present your research papers and innovative ideas in this prestigious technical paper presentation competition.",
-      redirectLink: "/events/escape-room"
+      title: "Escape Logic",
+      src: "escape-logic.jpeg",
+      description: "Join this thrilling Escape Room-Themed Coding Event, where logic and programming skills unlock your freedom! 🧩🔓",
+      redirectLink: "/events/escape-logic"
     },
     {
       title: "Paper presentation",
       src: "paper-presentation.jpeg",
-      description: "Join our intensive 24-hour coding challenge to solve real-world problems.",
+      description: "Showcase your research and ideas in AI, ML, and emerging technologies. Gain valuable feedback, refine your presentation skills, and stand out in the world of innovation. 📝🎙️",
       redirectLink: "/events/paper-presentation"
     },
     {
-      title: "Gamify Tech",
-      src: "gamify-tech.jpeg",
-      description: "Learn about the latest developments in AI and ML through hands-on workshops.",
-      redirectLink: "/events/ai-ml-workshop"
+      title: "Cipher Mind",
+      src: "cipher-mind.jpeg",
+      description: "Get ready for an exciting tech quiz competition that tests your problem-solving and technical knowledge! Teams tackle topic-based technical questions. 🧠🎲",
+      redirectLink: "/events/cipher-mind"
     },
     {
-      title: "AI Meme Creation",
-      src: "digital-meme.jpeg",
-      description: "Present your research papers and innovative ideas in this prestigious technical paper presentation competition.",
-      redirectLink: "/events/technical-paper-presentation"
+      title: "Meme-O-Matic",
+      src: "meme-o-matic.jpeg",
+      description: "Generate memes and digital artwork based on a given context using AI tools like image generators. Showcase your wit, humor, and artistic flair in this exciting fusion of technology and creativity! 🚀🔥",
+      redirectLink: "/events/meme-o-matic"
     },
     {
-      title: "24-Hour Code Sprint",
+      title: "HackNova 2025",
       src: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0",
       description: "Join our intensive 24-hour coding challenge to solve real-world problems.",
-      redirectLink: "/events/code-sprint"
-    },
-    {
-      title: "AI & Machine Learning Workshop",
-      src: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
-      description: "Learn about the latest developments in AI and ML through hands-on workshops.",
-      redirectLink: "/events/ai-ml-workshop"
+      redirectLink: "/events/hacknova-2025"
     }
   ];
 
