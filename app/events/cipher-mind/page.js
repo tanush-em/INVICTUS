@@ -13,7 +13,7 @@ export default function CipherMind() {
       </p>
 
       <div className="mt-4 flex justify-center">
-        <Image src="/escape-logic.jpeg" alt="Escape Logic Event" width={500} height={300} className="rounded-lg shadow-md" />
+        <Image src="/cipher-mind.jpeg" alt="Cipher Mind" width={500} height={300} className="rounded-lg shadow-md" />
       </div>
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">

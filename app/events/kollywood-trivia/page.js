@@ -10,7 +10,7 @@ export default function KollywoodTrivia() {
         </p>
   
         <div className="mt-4 flex justify-center">
-          <Image src="/kollywood-trivia.jpeg" alt="Escape Logic Event" width={500} height={300} className="rounded-lg shadow-md" />
+          <Image src="/kollywood-trivia.jpeg" alt="Kollywood Trivia" width={500} height={300} className="rounded-lg shadow-md" />
         </div>
   
         <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
