@@ -49,7 +49,7 @@ export default function AboutSection() {
 
   return (
     <>
-      <div className="py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8">
+      <div id="about" className="py-12 md:py-16 lg:py-20 px-4 md:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-16">
             <h2 className="text-5xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 lg:mb-8 text-white text-center">

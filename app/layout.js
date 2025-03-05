@@ -33,10 +33,10 @@ export default function RootLayout({ children }) {
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
             <div className="text-gray-400 mb-4 md:mb-0">© 2025 INVICTUS. All rights reserved.</div>
             <div className="flex flex-col sm:flex-row sm:space-x-6 space-y-4 sm:space-y-0">
-              <a href="#" className="text-gray-400 hover:text-emerald-500">About Us</a>
-              <a href="#" className="text-gray-400 hover:text-emerald-500">Events</a>
-              <a href="#" className="text-gray-400 hover:text-emerald-500">Get Passes</a>
-              <a href="#" className="text-gray-400 hover:text-emerald-500">Contact</a>
+              <a href="#about" className="text-gray-400 hover:text-emerald-500">About Us</a>
+              <a href="#events" className="text-gray-400 hover:text-emerald-500">Events</a>
+              <a href="#passes" className="text-gray-400 hover:text-emerald-500">Get Passes</a>
+              <a href="#contact" className="text-gray-400 hover:text-emerald-500">Contact</a>
             </div>
           </div>
         </footer>

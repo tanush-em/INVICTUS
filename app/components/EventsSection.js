@@ -125,7 +125,7 @@ const EventsSection = () => {
   ];
 
   return (
-    <div className="w-full py-20 px-4 md:px-8">
+    <div id="events" className="w-full py-20 px-4 md:px-8">
       <h2 className="text-5xl font-bold mb-16 text-center">Events</h2>
 
       <div className="max-w-7xl mx-auto">

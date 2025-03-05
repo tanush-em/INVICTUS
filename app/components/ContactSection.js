@@ -5,14 +5,14 @@ import { Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 
 const ContactSection = () => {
   return (
-    <section className="py-20 px-8">
+    <section id="contact" className="py-20 px-8">
 
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold mb-12 text-center">Contact Us</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
 
-          <div className="space-y-8">
+          <div className="space-y-4">
 
             <div className="p-4 rounded-xl bg-black/30 hover:bg-black/40 transition shadow-lg border border-gray-600">
               <div className="flex items-center mb-0">
@@ -42,49 +42,6 @@ const ContactSection = () => {
               </div>
             </div>
 
-            <div style={{ display: "flex", gap: "75px", margin: "50px",paddingLeft: "75px" }}>
-              <Link href="https://www.instagram.com/invictus.eec_25/profilecard/?igsh=dDJiMWhmdzU2Ynlo" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/insta.png"
-                  alt="Instagram"
-                  width={60}
-                  height={60}
-                />
-              </Link>
-
-              <Link href="https://www.linkedin.com/in/atlas-aiml-eec" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/linkedin.png"
-                  alt="Instagram"
-                  width={60}
-                  height={60}
-                />
-              </Link>
-
-              <Link href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/whatsapp.png"
-                  alt="Instagram"
-                  width={60}
-                  height={60}
-                />
-              </Link>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-
-            <div className="h-64 bg-gray-800 rounded-xl overflow-hidden shadow-lg">
-              <a href="https://maps.app.goo.gl/6ZARi62AQNcT76UZ6" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="clg.png"
-                  alt="Location Map"
-                  className="w-full h-full object-cover"
-                />
-              </a>
-
-            </div>
-
             <div className="p-6 rounded-xl bg-black/30 border border-gray-600 shadow-lg">
               <div className="flex items-start space-x-4">
                 <MapPin className="w-10 h-10 text-red-500 mt-1" />
@@ -99,6 +56,52 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
+
+
+          </div>
+
+          <div className="space-y-4">
+
+            <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+              <a href="https://maps.app.goo.gl/6ZARi62AQNcT76UZ6" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="clg.png"
+                  alt="Location Map"
+                  className="w-full h-full object-cover"
+                />
+              </a>
+
+            </div>
+
+            <div style={{ display: "flex", gap: "75px", margin: "50px", paddingLeft: "75px" }}>
+              <Link href="https://www.instagram.com/invictus.eec_25/profilecard/?igsh=dDJiMWhmdzU2Ynlo" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/insta.png"
+                  alt="Instagram"
+                  width={72}
+                  height={72}
+                />
+              </Link>
+
+              <Link href="https://www.linkedin.com/in/atlas-aiml-eec" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/linkedin.png"
+                  alt="Instagram"
+                  width={72}
+                  height={72}
+                />
+              </Link>
+
+              <Link href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/whatsapp.png"
+                  alt="Instagram"
+                  width={72}
+                  height={72}
+                />
+              </Link>
+            </div>
+
           </div>
         </div>
       </div>

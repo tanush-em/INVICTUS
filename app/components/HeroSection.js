@@ -26,8 +26,8 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-screen flex flex-col items-center justify-center text-center z-20">
-      {/* <img src="eec-logo.png" alt="eec-logo" className="w-[550px] h-auto" />
-      <img src="atlas-logo.jpg" alt="atlas-logo" className="w-[550px] h-auto" />
+      <img src="test.png" alt="eec-logo" className="w-[550px] h-auto" />
+      {/*<img src="atlas-logo.jpg" alt="atlas-logo" className="w-[550px] h-auto" />
       <img src="adeptus-logo.png" alt="adeptus-logo" className="w-[550px] h-auto" /> */}
       <motion.div
         initial={{ scale: 0 }}
