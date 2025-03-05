@@ -43,7 +43,7 @@ const ContactSection = () => {
             </div>
 
             <div style={{ display: "flex", gap: "75px", margin: "50px",paddingLeft: "75px" }}>
-              <Link href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.instagram.com/invictus.eec_25/profilecard/?igsh=dDJiMWhmdzU2Ynlo" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/insta.png"
                   alt="Instagram"
@@ -52,7 +52,7 @@ const ContactSection = () => {
                 />
               </Link>
 
-              <Link href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/atlas-aiml-eec" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/linkedin.png"
                   alt="Instagram"
