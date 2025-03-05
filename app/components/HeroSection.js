@@ -26,6 +26,7 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-screen flex flex-col items-center justify-center text-center z-20">
+      <h2 className="text-3xl font-medium text-gray-400 mb-4">SRM Easwari Engineering College</h2>
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
@@ -37,13 +38,11 @@ export default function HeroSection() {
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-6xl font-bold mb-8 bg-gradient-to-r from-emerald-500 to-blue-500 text-transparent bg-clip-text z-20"
+        className="text-6xl font-bold mb-4 bg-gradient-to-r from-emerald-500 to-blue-500 text-transparent bg-clip-text z-20"
       >
         INVICTUS 2025
       </motion.h1>
-      <h2 className="text-4xl font-bold text-white mb-2">Department Of Computer Science and Engineering</h2>
-      <h2 className="text-3xl font-bold text-white mb-4">(Artificial Intelligence & Machine Learning)</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 z-20">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 z-20 mb-6">
         {Object.entries(timeLeft).map(([unit, value]) => (
           <div key={unit} className="text-center">
             <div className="text-4xl font-bold">{value}</div>
@@ -51,6 +50,8 @@ export default function HeroSection() {
           </div>
         ))}
       </div>
+      <h2 className="text-3xl font-normal text-gray-300 mb-2">Department Of Computer Science and Engineering</h2>
+      <h2 className="text-2xl font-normal text-gray-300 mb-4">(Artificial Intelligence & Machine Learning)</h2>
     </section>
   );
 }

@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
             muted 
             playsInline
           >
-            <source src="bg.mp4" type="video/mp4" />
+            <source src="bg2.mp4" type="video/mp4" />
           </video>
         </div>
 
