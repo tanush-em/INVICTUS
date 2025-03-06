@@ -14,7 +14,7 @@ const FlipCard = ({ event }) => {
         className={`relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] ${isFlipped ? '[transform:rotateY(180deg)]' : ''}`}
       >
         <div className="absolute inset-0 [backface-visibility:hidden]">
-          <div className="h-full w-full rounded-xl overflow-hidden">
+          <div className="h-full w-full rounded-xl overflow-hidden">  
             <img src={event.src} alt={event.title} className="h-full w-full object-cover" />
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute bottom-0 left-0 right-0 p-4">
