@@ -70,8 +70,8 @@ const EventsSection = () => {
     },
     {
       title: "HackNova 2025",
-      src: "hacknova.jpeg",
-      description: "Join our intensive 24-hour coding challenge to solve real-world problems.",
+      src: "hacknova-2025.jpeg",
+      description: "Join us for an exhilarating day of hackathon where innovation meets implementation! HackNova 2025 brings together brilliant minds to solve real-world problems using cutting-edge technologies in AI and ML.",
       redirectLink: "/events/hacknova-2025"
     }
   ];
