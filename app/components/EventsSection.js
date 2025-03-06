@@ -30,10 +30,10 @@ const FlipCard = ({ event }) => {
             </div>
             <a
               href={event.redirectLink}
-              className="block w-full bg-white hover:bg-gray-100 text-slate-800 font-semibold py-2 px-4 rounded text-center transition-colors"
+              className="block w-full bg-white hover:bg-blue-500 text-slate-800 font-semibold py-2 px-4 rounded text-center transition-colors"
               onClick={(e) => e.stopPropagation()}
             >
-              Register Now
+              Register
             </a>
           </div>
         </div>

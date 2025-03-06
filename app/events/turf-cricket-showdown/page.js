@@ -1,13 +1,14 @@
-import Image from "next/image";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function TurfCricketShowdown() {
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <h1 className="text-4xl font-bold text-center">Turf Cricket Showdown</h1>
-      
+
       <p className="mt-4 text-gray-300 text-lg">
-        Get ready to showcase your cricketing skills in an exciting 5-a-side Turf Cricket tournament! 
-        Experience fast-paced action, strategic gameplay, and thrilling moments as teams compete for glory. 
+        Get ready to showcase your cricketing skills in an exciting 5-a-side Turf Cricket tournament!
+        Experience fast-paced action, strategic gameplay, and thrilling moments as teams compete for glory.
         Whether you're an amateur or a seasoned player, this is your chance to shine on the turf!
       </p>
 
@@ -48,6 +49,13 @@ export default function TurfCricketShowdown() {
         <h2 className="text-2xl font-semibold">Contact Information</h2>
         <p className="mt-2"><strong>Email:</strong> [Provide Email]</p>
         <p><strong>Phone:</strong> [Provide Phone Number]</p>
+      </div>
+      <div className="mt-8 flex justify-center">
+        <Link href="https://www.invictus-eec.site" target="_blank">
+          <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
+            Register Now
+          </button>
+        </Link>
       </div>
     </div>
   );

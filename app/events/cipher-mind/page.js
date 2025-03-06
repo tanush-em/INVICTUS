@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function CipherMind() {
   return (
@@ -48,6 +49,14 @@ export default function CipherMind() {
         <p><strong>Phone:</strong> 9150521729</p>
         <p className="mt-2"><strong>Name:</strong> Arya</p>
         <p><strong>Phone:</strong> 7305666539</p>
+      </div>
+
+      <div className="mt-8 flex justify-center">
+        <Link href="https://www.invictus-eec.site" target="_blank">
+          <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
+            Register Now
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function MurderMystery() {
   return (
@@ -66,6 +67,14 @@ export default function MurderMystery() {
         <p className="mt-2"><strong>Name:</strong> Sam</p>
         <p><strong>Phone:</strong> 8939771980</p>
         <p><strong>Email:</strong> samjefferson2005@gmail.com</p>
+      </div>
+
+      <div className="mt-8 flex justify-center">
+        <Link href="https://www.invictus-eec.site" target="_blank">
+          <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
+            Register Now
+          </button>
+        </Link>
       </div>
     </div>
   );
