@@ -7,14 +7,14 @@ import { Button } from "@/components/ui/button";
 const PassDetails = () => {
   const passes = [
     {
-      title: "All Pass",
-      price: "₹ 350",
+      title: "Trivia Pass",
+      price: "₹ 400",
       description: "xxxxxxxxxxxxxx",
       features: [
-        "xxxxxxxxxxxxxxx",
-        "xxxxxxxxxxxxxxx",
-        "xxxxxxxxxxxxxxx",
-        "xxxxxxxxxxxxxxx",
+        "Food provided (veg / non-veg)",
+        "Access to 2 Technical Events (except Hacknova 2025)",
+        "Access to 1 non Technical Event (except Corporate Walk)",
+        "Win exclusive Rewards and Cash Prizes",
       ],
     },
     {
