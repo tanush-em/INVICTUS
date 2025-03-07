@@ -15,12 +15,14 @@ const ContactSection = () => {
           <div className="space-y-4">
 
             <div className="p-4 rounded-xl bg-black/30 hover:bg-black/40 transition shadow-lg border border-gray-600">
-              <div className="flex items-center mb-0">
-                <Mail className="w-10 h-10 text-emerald-500" />
-                <h3 className="ml-4 text-xl font-semibold">Email Us</h3>
+              <div className="flex items-center mb-2">
+                <Mail className="w-8 h-8 text-emerald-500 flex-shrink-0" />
+                <h3 className="ml-3 text-lg font-semibold">Email Us</h3>
               </div>
-              <a href="mailto:aimlatlas.visionary@gmail.com"
-                className="text-gray-300 text-lg hover:text-emerald-300 transition block ml-12">
+              <a
+                href="mailto:aimlatlas.visionary@gmail.com"
+                className="text-gray-300 hover:text-emerald-300 transition block break-words text-sm sm:text-base"
+              >
                 aimlatlas.visionary@gmail.com
               </a>
             </div>
