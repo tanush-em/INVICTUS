@@ -18,7 +18,7 @@ export default function MemeOMatic() {
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
         <p className="mt-2"><strong>Team Size:</strong> Solo or Duo</p>
-        <p><strong>Entry Fee:</strong> To be announced</p>
+        <p><strong>Entry Fee:</strong> ₹ 100</p>
         <p><strong>Location:</strong> To be announced</p>
       </div>
 

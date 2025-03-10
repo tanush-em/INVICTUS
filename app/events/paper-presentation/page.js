@@ -18,7 +18,7 @@ export default function PaperPresentation() {
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
         <p className="mt-2"><strong>Team Size:</strong> 3-6 members</p>
-        <p><strong>Entry Fee:</strong>₹ 200 for 3 Members (₹ 50 for every addtional member)</p>
+        <p><strong>Entry Fee:</strong>₹ 200 for 3 Members (₹ 30 for every addtional member)</p>
         <p><strong>Location:</strong> Gallery Hall, Easwari Engineering College</p>
       </div>
 

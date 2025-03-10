@@ -17,7 +17,7 @@ export default function MurderMystery() {
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
         <p className="mt-2"><strong>Team Size:</strong> 2-4 members</p>
-        <p><strong>Entry Fee:</strong> ₹150 per team</p>
+        <p><strong>Entry Fee:</strong> ₹ 150 per team</p>
         <p><strong>Location:</strong> Main Block Classroom</p>
       </div>
 
