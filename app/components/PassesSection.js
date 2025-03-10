@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 import { motion } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
-import { Button } from "@/components/ui/button";
+import Link from 'next/link';
 
 const PassDetails = () => {
   const passes = [
@@ -47,12 +47,9 @@ const PassDetails = () => {
                 ))}
               </div>
 
-              <Button className="">
-                Purchase Pass
-              </Button>
-              <div className="w-full bg-blue-700 hover:bg-blue-800 text-white">
+              <div className="w-full flex justify-center">
                 <Link href="https://docs.google.com/forms/d/e/1FAIpQLSd7gOZpz36GAeD2V9fjAq1SeGmz_o2jzJntgxbcABDlVJNaBg/viewform" target="_blank">
-                  <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
+                  <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                     Purchase Pass
                   </button>
                 </Link>
