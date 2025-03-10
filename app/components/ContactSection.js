@@ -23,7 +23,7 @@ const ContactSection = () => {
                 href="mailto:aimlatlas.visionary@gmail.com"
                 className="text-gray-300 hover:text-emerald-300 transition block break-words text-sm sm:text-base"
               >
-                aimlatlas.visionary@gmail.com
+                 aimlatlas.visionary@gmail.com
               </a>
             </div>
 

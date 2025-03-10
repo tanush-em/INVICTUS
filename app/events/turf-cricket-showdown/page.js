@@ -1,3 +1,4 @@
+import { color } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -19,15 +20,15 @@ export default function SportsEvents() {
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
-        <p className="mt-2"><strong>Team Size:</strong> 5 players per team (+2 substitutes)</p>
-        <p><strong>Entry Fee:</strong> ₹___ per team (to be decided)</p>
-        <p><strong>Location:</strong> Turf</p>
+        <p className="mt-2"><strong>Team Size:</strong> 6 players per team (+1 substitutes)</p>
+        <p><strong>Entry Fee:</strong> ₹ 300 per team (to be decided)</p>
+        <p><strong>Location:</strong> <Link href="https://maps.app.goo.gl/UjK3zErpRCWWijas8?g_st=aw">Turfvolution, Manapakkam</Link></p>  
       </div>
 
       <div className="mt-6">
         <h2 className="text-2xl font-semibold">Event Flow</h2>
         <ul className="list-disc list-inside mt-2 text-lg">
-          <li><strong>Round 1:</strong> League Stage or Knockout game based on maximum team registrations.</li>
+          <li><strong>Round 1:</strong> Knockout game based on maximum team registrations.</li>
           <li><strong>Round 2:</strong> Semi-finals and Finals - The last four teams will play in semis, and the winners will advance to the finals.</li>
         </ul>
       </div>
@@ -42,7 +43,7 @@ export default function SportsEvents() {
           <li>Teams must report 15 minutes before the match; late arrivals may face disqualification.</li>
           <li>Umpire’s decision is final – arguing with the umpire can result in penalties.</li>
           <li>Use of abusive language or misconduct will lead to immediate disqualification.</li>
-          <li>Players must wear sports attire and non-marking shoes.</li>
+          <li>Players must wear sports attire.</li>
         </ul>
       </div>
 
@@ -56,6 +57,15 @@ export default function SportsEvents() {
         <p><strong>Email:</strong> samjefferson2005@gmail.com</p>
       </div>
 
+      {/* Registration Button */}
+      <div className="mt-8 flex justify-center">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeQ_SkuS9fS8fHklEdShF4Uq1mGdBeOgEQ7uIsDv1j39OGrKw/viewform" target="_blank">
+          <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
+            Register Now
+          </button>
+        </Link>
+      </div>
+
       <h1 className="text-4xl font-bold text-center mt-12">Futsal Tournament</h1>
 
       <p className="mt-4 text-gray-300 text-lg">
@@ -66,9 +76,9 @@ export default function SportsEvents() {
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
-        <p className="mt-2"><strong>Team Size:</strong> 5 players on the field with a rolling substitution format (5+3)</p>
-        <p><strong>Entry Fee:</strong> ₹___ per team (to be decided)</p>
-        <p><strong>Location:</strong> Turf</p>
+        <p className="mt-2"><strong>Team Size:</strong> 5 players on the field with a rolling substitution format (5+2)</p>
+        <p><strong>Entry Fee:</strong> ₹ 300 per team (to be decided)</p>
+        <p><strong>Location:</strong> <Link href="https://maps.app.goo.gl/UjK3zErpRCWWijas8?g_st=aw">Turfvolution, Manapakkam</Link></p>
       </div>
 
       <div className="mt-6">
@@ -82,11 +92,11 @@ export default function SportsEvents() {
       <div className="mt-6">
         <h2 className="text-2xl font-semibold">Rules & Regulations</h2>
         <ul className="list-disc list-inside mt-2 text-lg">
-          <li>Each team must have a minimum of 5 players and a maximum of 8 (including substitutes).</li>
+          <li>Each team must have 5 players and a maximum of 2 substitutes.</li>
           <li>Standard futsal rules apply, including a no-slide tackle rule.</li>
           <li>Matches will have two halves of [5+1+5 mins] with a short break in between.</li>
           <li>In case of a draw during knockout rounds, penalty shootouts will determine the winner.</li>
-          <li>The referee’s decision is final, and any misconduct may lead to disqualification.</li>
+          <li>The referee’s decision is final, and any misconduct will lead to disqualification.</li>
         </ul>
       </div>
 
@@ -103,7 +113,7 @@ export default function SportsEvents() {
 
       {/* Registration Button */}
       <div className="mt-8 flex justify-center">
-        <Link href="https://www.invictus-eec.site" target="_blank">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeu8F7ez_HCKOaGe3_2D7ZrOMbH-gPXGvFEhBznKX5tdTPH9A/viewform?usp=sharing" target="_blank">
           <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
             Register Now
           </button>
