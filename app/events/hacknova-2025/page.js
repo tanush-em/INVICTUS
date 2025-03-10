@@ -1,42 +1,47 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function PaperPresentation() {
+export default function HackNova2025() {
   return (
     <div className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-4xl font-bold text-center">Paper Presentation</h1>
-
+      <h1 className="text-4xl font-bold text-center">HackNova 2025</h1>
+      
       <p className="mt-4 text-gray-300 text-lg">
-        Showcase your research and innovative ideas in front of panel of judges.
-        howcase your research and innovative ideas in front of panel of judges.
-        howcase your research and innovative ideas in front of panel of judges.
+        Get ready to innovate, collaborate, and build at HackNova 2025! Participants will work in teams to develop creative and impactful solutions to predefined problem statements using cutting-edge technology and out-of-the-box thinking. Showcase your problem-solving skills, collaborate with like-minded individuals, and create technology-driven solutions that can make a difference.
       </p>
 
       <div className="mt-4 flex justify-center">
-        <Image src="/hackathon-2025.jpeg" alt="Escape Logic" width={500} height={300} className="rounded-lg shadow-md" />
+        <Image src="/hacknova-2025.jpeg" alt="HackNova 2025" width={700} height={500} className="rounded-lg shadow-md" />
       </div>
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
-        <h2 className="text-2xl font-semibold">Event Details</h2>
-        <p className="mt-2"><strong>Date:</strong> March 10, 2025</p>
-        <p><strong>Venue:</strong> Auditorium Hall A</p>
-        <p><strong>Time:</strong> 10:00 AM - 1:00 PM</p>
+        <h2 className="text-2xl font-semibold">Participation Details</h2>
+        <p className="mt-2"><strong>Team Size:</strong> 3 - 6 members</p>
+        <p><strong>Registeration Fee:</strong> ₹ 300 for 3 members (₹ 50 for every additional member)</p>
+        <p><strong>Duration:</strong> 7 - 8 Hours</p>
+        <p><strong>Date and Time:</strong> 12th April, 2025 / 9:00 AM</p>
+        <p><strong>Location:</strong> To Be Announced</p>
       </div>
 
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold">Rules & Guidelines</h2>
+        <h2 className="text-2xl font-semibold">Rules & Regulations</h2>
         <ul className="list-disc list-inside mt-2 text-lg">
-          <li>Maximum 2 participants per team.</li>
-          <li>Presentation time: 10 minutes + Q&A.</li>
-          <li>Only original research and review papers are allowed.</li>
+          <li>Each team must consist of [item] members.</li>
+          <li>All participants must register online before the event.</li>
+          <li>Respect and inclusivity are mandatory—harassment will not be tolerated.</li>
+          <li>Teams must submit final projects before the deadline.</li>
+          <li>Projects will be judged on creativity, execution, and impact.</li>
+          <li>Participants retain ownership of their projects but allow organizers to use materials for promotion.</li>
+          <li>Teams violating rules may be disqualified.</li>
         </ul>
       </div>
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Contact Information</h2>
-        <p className="mt-2"><strong>Name:</strong> Vignesh</p>
-        <p><strong>Email:</strong> vignesh@gmail.com</p>
-        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p className="mt-2"><strong>Name:</strong> Naveen Karthik R</p>
+        <p><strong>Phone:</strong> 7397315409</p>
+        <p className="mt-2"><strong>Name:</strong> Kavitha A</p>
+        <p><strong>Phone:</strong>8637650188</p>
       </div>
 
       <div className="mt-8 flex justify-center">
@@ -45,7 +50,7 @@ export default function PaperPresentation() {
             Register Now
           </button>
         </Link>
-      </div>
+      </div> 
     </div>
   );
 }

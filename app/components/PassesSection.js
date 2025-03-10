@@ -7,27 +7,16 @@ import { Button } from "@/components/ui/button";
 const PassDetails = () => {
   const passes = [
     {
-      title: "Trivia Pass",
-      price: "₹ 400",
-      description: "xxxxxxxxxxxxxx",
+      title: "Trinity Pass - 3 Person Pass",
+      price: "₹ 1000",
+      description: "The Trinity Pass grants entry for a team of three to experience the best of our symposium. Enjoy delicious meals, participate in top-tier technical and non-technical events, and compete for exclusive rewards and cash prizes. Get ready for an exciting and immersive tech fest!",
       features: [
         "Food provided (veg / non-veg)",
         "Access to 2 Technical Events (except Hacknova 2025)",
-        "Access to 1 non Technical Event (except Corporate Walk)",
+        "Access to 1 non Technical Event (except Corporate Walk, Turf Showdown Event)",
         "Win exclusive Rewards and Cash Prizes",
-      ],
+      ]
     },
-    {
-      title: "Single Pass",
-      price: "may vary acc to event",
-      description: "xxxxxxxxxxxxxx",
-      features: [
-        "xxxxxxxxxxxxxxx",
-        "xxxxxxxxxxxxxxx",
-        "xxxxxxxxxxxxxxx",
-        "xxxxxxxxxxxxxxx",
-      ],
-    }
   ];
 
   return (

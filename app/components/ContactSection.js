@@ -35,11 +35,15 @@ const ContactSection = () => {
               <div className="space-y-1 ml-12">
                 <a href="tel:+1234567890"
                   className="text-gray-300 text-lg hover:text-blue-500 transition block">
-                  +91 98765 45321
+                  +91 8610987305
                 </a>
                 <a href="tel:+1234567890"
                   className="text-gray-300 text-lg hover:text-blue-500 transition block">
-                  +91 98765 45321
+                  +91 8838422248
+                </a>
+                <a href="tel:+1234567890"
+                  className="text-gray-300 text-lg hover:text-blue-500 transition block">
+                  +91 7200286368
                 </a>
               </div>
             </div>
@@ -88,16 +92,16 @@ const ContactSection = () => {
               <Link href="https://www.linkedin.com/in/atlas-aiml-eec" target="_blank" rel="noopener noreferrer">
                 <Image
                   src="/linkedin.png"
-                  alt="Instagram"
+                  alt="LinkedIn"
                   width={72}
                   height={72}
                 />
               </Link>
 
-              <Link href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+              <Link href="https://adeptus.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <Image
-                  src="/whatsapp.png"
-                  alt="Instagram"
+                  src="/adeptus.png"
+                  alt="Adeptus"
                   width={72}
                   height={72}
                 />
