@@ -18,9 +18,9 @@ export default function EscapeLogic() {
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
         <p className="mt-2"><strong>Team Size:</strong> 1-3 members</p>
-        <p><strong>Entry Fee:</strong> To be announced</p>
-        <p><strong>Location:</strong> To be announced</p>
-        <p><strong>Date & Time:</strong> To be announced</p>
+        <p><strong>Entry Fee:</strong>₹ 150</p>
+        <p><strong>Location:</strong> In Campus premises (will be intimated later)</p>
+        <p><strong>Date & Time:</strong> 12th April, 2024 / 12:00 PM (tentative)</p>
       </div>
 
       <div className="mt-6">
