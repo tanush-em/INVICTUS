@@ -78,7 +78,7 @@ const EventsSection = () => {
 
   const nonTechnicalEvents = [
     {
-      title: "Turf Cricket Showdown",
+      title: "Cricket Football Showdown",
       src: "turf-cricket.jpeg",
       description: "Get ready to showcase your cricketing skills in an exciting 5-a-side Turf Cricket tournament! Experience fast-paced action, strategic gameplay, and thrilling moments as teams compete for glory !",
       redirectLink: "/events/turf-cricket-showdown"

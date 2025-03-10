@@ -52,7 +52,7 @@ export default function CipherMind() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <Link href="https://www.invictus-eec.site" target="_blank">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSd9A01wI7yCAtlrqq4Xua6Mflu2Z6KxBOcW9cO9gZFtwAFL9A/viewform" target="_blank">
           <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
             Register Now
           </button>
