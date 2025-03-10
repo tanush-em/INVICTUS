@@ -17,16 +17,36 @@ export default function HackNova2025() {
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
         <p className="mt-2"><strong>Team Size:</strong> 3 - 6 members</p>
-        <p><strong>Registeration Fee:</strong> ₹ 300 for 3 members (₹ 50 for every additional member)</p>
+        <p><strong>Registration Fee:</strong> ₹ 300 for 3 members (₹ 50 for every additional member)</p>
         <p><strong>Duration:</strong> 7 - 8 Hours</p>
         <p><strong>Date and Time:</strong> 12th April, 2025 / 9:00 AM</p>
         <p><strong>Location:</strong> To Be Announced</p>
       </div>
 
       <div className="mt-6">
+        <h2 className="text-2xl font-semibold">Timeline</h2>
+        <ul className="list-disc list-inside mt-2 text-lg">
+          <li><strong>9:00 AM:</strong> Check-in and Selection of Problem Statements</li>
+          <li><strong>09:30 AM - 12:30 PM:</strong> Hacking Phase I</li>
+          <li><strong>12:30 PM - 01:00 PM:</strong> Lunch and Refreshments</li>
+          <li><strong>01:00 PM - 03:30 PM:</strong> Hacking Phase II</li>
+          <li><strong>3:30 PM - 4:00 pm:</strong> Project Submission Evaluation and Final Presentation</li>
+          <li><strong>4:30 PM:</strong> Winner Announcement & Closing Ceremony</li>
+        </ul>
+      </div>
+
+      <div className="mt-6">
+        <h2 className="text-2xl font-semibold">Problem Statements</h2>
+        <ul className="list-disc list-inside mt-2 text-lg">
+          <li>Showcase your own ideas in the Open Track.</li>
+          <li>Other problem statements to be revealed later...</li>
+        </ul>
+      </div>
+
+      <div className="mt-6">
         <h2 className="text-2xl font-semibold">Rules & Regulations</h2>
         <ul className="list-disc list-inside mt-2 text-lg">
-          <li>Each team must consist of [item] members.</li>
+          <li>Each team must consist of 3 - 6 members.</li>
           <li>All participants must register online before the event.</li>
           <li>Respect and inclusivity are mandatory—harassment will not be tolerated.</li>
           <li>Teams must submit final projects before the deadline.</li>
@@ -36,12 +56,23 @@ export default function HackNova2025() {
         </ul>
       </div>
 
+      <div className="mt-6 p-5 rounded-lg shadow-md">
+        <h2 className="text-2xl font-semibold">Judging Criteria</h2>
+        <ul className="list-disc list-inside mt-2 text-lg">
+          <li><strong>Innovation & Creativity (30%)</strong> – How unique and creative is the solution?</li>
+          <li><strong>Technical Implementation (25%)</strong> – How well is the solution implemented?</li>
+          <li><strong>Impact & Feasibility (20%)</strong> – How practical and impactful is the solution?</li>
+          <li><strong>Presentation & Clarity (15%)</strong> – How well is the project communicated?</li>
+          <li><strong>Team Collaboration (10%)</strong> – How effectively did the team work together?</li>
+        </ul>
+      </div>
+
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Contact Information</h2>
         <p className="mt-2"><strong>Name:</strong> Naveen Karthik R</p>
         <p><strong>Phone:</strong> 7397315409</p>
         <p className="mt-2"><strong>Name:</strong> Kavitha A</p>
-        <p><strong>Phone:</strong>8637650188</p>
+        <p><strong>Phone:</strong> 8637650188</p>
       </div>
 
       <div className="mt-8 flex justify-center">
