@@ -70,7 +70,7 @@ export default function MurderMystery() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <Link href="https://www.invictus-eec.site" target="_blank">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf1zh_U5tcnUQEl9KFCj7660py05K6x9z1csLlmE5o287aJyw/viewform" target="_blank">
           <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
             Register Now
           </button>
