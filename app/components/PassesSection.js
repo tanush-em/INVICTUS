@@ -23,7 +23,7 @@ const PassDetails = () => {
     <section id="passes" className="py-20 px-8">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-5xl font-bold mb-12 text-center">Passes</h2>
-        
+
         <div className="">
           {passes.map((pass, index) => (
             <motion.div
@@ -36,7 +36,7 @@ const PassDetails = () => {
               <h3 className="text-4xl font-bold mb-4 text-gray-800">{pass.title}</h3>
               <p className="text-gray-600 mb-6">{pass.description}</p>
               <div className="text-4xl font-bold text-blue-700 mb-6">{pass.price}</div>
-              
+
               <div className="space-y-4 mb-8">
                 <h4 className="text-xl font-semibold text-gray-700 mb-4">Pass Benefits:</h4>
                 {pass.features.map((feature, i) => (
@@ -46,10 +46,17 @@ const PassDetails = () => {
                   </div>
                 ))}
               </div>
-              
-              <Button className="w-full bg-blue-700 hover:bg-blue-800 text-white">
+
+              <Button className="">
                 Purchase Pass
               </Button>
+              <div className="w-full bg-blue-700 hover:bg-blue-800 text-white">
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSd7gOZpz36GAeD2V9fjAq1SeGmz_o2jzJntgxbcABDlVJNaBg/viewform" target="_blank">
+                  <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
+                    Purchase Pass
+                  </button>
+                </Link>
+              </div>
             </motion.div>
           ))}
         </div>
