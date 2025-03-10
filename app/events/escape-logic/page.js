@@ -52,7 +52,7 @@ export default function EscapeLogic() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <Link href="https://www.invictus-eec.site" target="_blank">
+        <Link href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdKKOb_6296XTraHuiXmgcGB2GSdqoEJCLCzPw7Uha36s66sQ%2Fviewform%3Fusp%3Dsharing%27&followup=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSdKKOb_6296XTraHuiXmgcGB2GSdqoEJCLCzPw7Uha36s66sQ%2Fviewform%3Fusp%3Dsharing%27&ifkv=ASSHykqPnt9Y6Eg8bmOWSi4UsTM-LoRBrjtWHNncgaJyQG92D9mf07sjZzvfZSSlapCH45faDy9M&ltmpl=forms&osid=1&passive=1209600&service=wise&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S621464906%3A1741612836052831&ddm=1" target="_blank">
           <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
             Register Now
           </button>
