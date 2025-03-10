@@ -21,10 +21,10 @@ const PassDetails = () => {
 
   return (
     <section id="passes" className="py-20 px-8">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-2xl mx-auto">
         <h2 className="text-5xl font-bold mb-12 text-center">Passes</h2>
         
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="">
           {passes.map((pass, index) => (
             <motion.div
               key={index}
