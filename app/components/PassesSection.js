@@ -40,9 +40,9 @@ const PassDetails = () => {
               <div className="space-y-4 mb-8">
                 <h4 className="text-xl font-semibold text-gray-700 mb-4">Pass Benefits:</h4>
                 {pass.features.map((feature, i) => (
-                  <div key={i} className="flex items-center text-gray-700">
-                    <CheckCircle className="w-5 h-5 mr-3 text-blue-700" />
-                    <span>{feature}</span>
+                  <div key={i} className="flex items-center gap-2 flex-wrap text-gray-700">
+                    <CheckCircle className="w-5 h-5 text-blue-700" />
+                    <span className="flex-1">{feature}</span>
                   </div>
                 ))}
               </div>
