@@ -23,7 +23,7 @@ const ContactSection = () => {
                 href="mailto:aimlatlas.visionary@gmail.com"
                 className="text-gray-300 hover:text-emerald-300 transition block break-words text-sm sm:text-base"
               >
-                 aimlatlas.visionary@gmail.com
+                aimlatlas.visionary@gmail.com
               </a>
             </div>
 
@@ -79,35 +79,19 @@ const ContactSection = () => {
 
             </div>
 
-            <div style={{ display: "flex", gap: "75px", margin: "50px", paddingLeft: "75px" }}>
+            <div className="flex flex-wrap justify-center gap-8 sm:gap-12 p-6 sm:p-10">
               <Link href="https://www.instagram.com/invictus.eec_25/profilecard/?igsh=dDJiMWhmdzU2Ynlo" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/insta.png"
-                  alt="Instagram"
-                  width={72}
-                  height={72}
-                />
+                <Image src="/insta.png" alt="Instagram" width={64} height={64} className="w-12 sm:w-16 h-auto" />
               </Link>
 
               <Link href="https://www.linkedin.com/in/atlas-aiml-eec" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/linkedin.png"
-                  alt="LinkedIn"
-                  width={72}
-                  height={72}
-                />
+                <Image src="/linkedin.png" alt="LinkedIn" width={64} height={64} className="w-12 sm:w-16 h-auto" />
               </Link>
 
               <Link href="https://adeptus.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/adeptus.png"
-                  alt="Adeptus"
-                  width={72}
-                  height={72}
-                />
+                <Image src="/adeptus.png" alt="Adeptus" width={64} height={64} className="w-12 sm:w-16 h-auto" />
               </Link>
             </div>
-
           </div>
         </div>
       </div>
