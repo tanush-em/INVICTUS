@@ -78,20 +78,19 @@ const ContactSection = () => {
               </a>
 
             </div>
-
             <div className="flex flex-wrap justify-center gap-8 sm:gap-12 p-6 sm:p-10">
               <Link href="https://www.instagram.com/invictus.eec_25/profilecard/?igsh=dDJiMWhmdzU2Ynlo" target="_blank" rel="noopener noreferrer">
-                <Image src="/insta.png" alt="Instagram" width={64} height={64} className="w-12 sm:w-16 h-auto" />
+                <Image src="/insta.png" alt="Instagram" width={72} height={72} className="w-16 sm:w-20  h-auto" />
               </Link>
 
               <Link href="https://www.linkedin.com/in/atlas-aiml-eec" target="_blank" rel="noopener noreferrer">
-                <Image src="/linkedin.png" alt="LinkedIn" width={64} height={64} className="w-12 sm:w-16 h-auto" />
+                <Image src="/linkedin.png" alt="LinkedIn" width={72} height={72} className="w-16 sm:w-20 h-auto" />
               </Link>
 
               <Link href="https://adeptus.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <Image src="/adeptus.png" alt="Adeptus" width={64} height={64} className="w-12 sm:w-16 h-auto" />
+                <Image src="/adeptus.png" alt="Adeptus" width={72} height={72} className="w-16 sm:w-20 h-auto" />
               </Link>
-            </div>
+            </div>  
           </div>
         </div>
       </div>
