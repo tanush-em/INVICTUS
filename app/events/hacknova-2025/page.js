@@ -26,12 +26,12 @@ export default function HackNova2025() {
       <div className="mt-6">
         <h2 className="text-2xl font-semibold">Timeline</h2>
         <ul className="list-disc list-inside mt-2 text-lg">
-          <li><strong>9:00 AM:</strong> Check-in and Selection of Problem Statements</li>
-          <li><strong>09:30 AM - 12:30 PM:</strong> Hacking Phase I</li>
-          <li><strong>12:30 PM - 01:00 PM:</strong> Lunch and Refreshments</li>
-          <li><strong>01:00 PM - 03:30 PM:</strong> Hacking Phase II</li>
-          <li><strong>3:30 PM - 4:00 pm:</strong> Project Submission Evaluation and Final Presentation</li>
-          <li><strong>4:30 PM:</strong> Winner Announcement & Closing Ceremony</li>
+          <li><strong>9:00 AM - 10:00 AM:</strong> Inauguration & Issue of problem statements</li>
+          <li><strong>10:00 AM - 01:00 PM:</strong> Hacking Phase I</li>
+          <li><strong>01:00 PM - 01:30 PM:</strong> Lunch and Refreshments</li>
+          <li><strong>01:30 PM - 04:00 PM:</strong> Hacking Phase II</li>
+          <li><strong>4:00 PM - 4:30 PM:</strong> Project Submission Evaluation and Final Presentation</li>
+          <li><strong>4:30 PM - 5:00 PM:</strong> Winner Announcement & Closing Ceremony</li>
         </ul>
       </div>
 
