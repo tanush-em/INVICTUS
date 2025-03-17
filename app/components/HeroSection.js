@@ -35,10 +35,10 @@ export default function HeroSection() {
       </div>
 
       <div className="space-y-1 text-center max-w-3xl">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-normal text-gray-300">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-300">
           Department Of Computer Science and Engineering
         </h2>
-        <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-300">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-300">
           (Artificial Intelligence & Machine Learning)
         </h2>
         <h2 className="text-lg sm:text-xl md:text-2xl font-normal text-gray-300">

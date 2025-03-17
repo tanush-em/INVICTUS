@@ -22,7 +22,9 @@ export default function SportsEvents() {
         <h2 className="text-2xl font-semibold">Participation Details</h2>
         <p className="mt-2"><strong>Team Size:</strong> 6 players per team (+1 substitutes)</p>
         <p><strong>Entry Fee:</strong> ₹ 300 per team (to be decided)</p>
-        <p><strong>Location:</strong> <Link href="https://maps.app.goo.gl/UjK3zErpRCWWijas8?g_st=aw">Turfvolution, Manapakkam</Link></p>  
+        <p><strong>Location:</strong> <Link href="https://maps.app.goo.gl/UjK3zErpRCWWijas8?g_st=aw" className='text-sky-500 hover:text-sky-700'>Turfvolution, Manapakkam</Link></p>
+        <p><strong>Date:</strong>March 28, 2025</p>
+        <p><strong>Time:</strong>10:00 AM - 3:00 PM</p>
       </div>
 
       <div className="mt-6">
@@ -78,7 +80,9 @@ export default function SportsEvents() {
         <h2 className="text-2xl font-semibold">Participation Details</h2>
         <p className="mt-2"><strong>Team Size:</strong> 5 players on the field with a rolling substitution format (5+2)</p>
         <p><strong>Entry Fee:</strong> ₹ 300 per team (to be decided)</p>
-        <p><strong>Location:</strong> <Link href="https://maps.app.goo.gl/UjK3zErpRCWWijas8?g_st=aw">Turfvolution, Manapakkam</Link></p>
+        <p><strong>Location:</strong> <Link href="https://maps.app.goo.gl/UjK3zErpRCWWijas8?g_st=aw" className='text-sky-500 hover:text-sky-700'>Turfvolution, Manapakkam</Link></p>
+        <p><strong>Date:</strong>March 29, 2025</p>
+        <p><strong>Time:</strong>10:00 AM - 3:00 PM</p>
       </div>
 
       <div className="mt-6">
