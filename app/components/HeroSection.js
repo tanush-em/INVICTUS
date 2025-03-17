@@ -34,17 +34,18 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="space-y-1 text-center max-w-3xl">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-300">
-          Department Of Computer Science and Engineering
+      <div className="space-y-2 text-center max-w-3xl px-4 md:px-0">
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-300">
+          Department of Computer Science and Engineering
         </h2>
-        <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-300">
+        <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-gray-300">
           (Artificial Intelligence & Machine Learning)
         </h2>
-        <h2 className="text-lg sm:text-xl md:text-2xl font-normal text-gray-300">
-           presents
+        <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-normal text-gray-300">
+          presents
         </h2>
       </div>
+
 
       <motion.div
         initial={{ scale: 0 }}
