@@ -19,7 +19,7 @@ export default function HackNova2025() {
         <p className="mt-2"><strong>Team Size:</strong> 3 - 6 members</p>
         <p><strong>Registration Fee:</strong> ₹ 300 for 3 members (₹ 50 for every additional member)</p>
         <p><strong>Duration:</strong> 7 - 8 Hours</p>
-        <p><strong>Date and Time:</strong> 12th April, 2025 / 9:00 AM</p>
+        <p><strong>Date and Time:</strong> 12th April, 2025 / 9:30 AM</p>
         <p><strong>Location:</strong> To Be Announced</p>
       </div>
 
