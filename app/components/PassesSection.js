@@ -16,7 +16,7 @@ const PassDetails = () => {
         "Access to 1 non-Technical Event (except Corporate Walk, Turf Showdown Event)",
         "Win exciting Rewards and Cash Prizes",
       ],
-      link: "https://docs.google.com/forms/d/e/1FAIpQLSd7gOZpz36GAeD2V9fjAq1SeGmz_o2jzJntgxbcABDlVJNaBg/viewform",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLScl5ebazqBwfFoMTCGrTYrOiEjUwl_XmNanmPmEXDu5NtSqlg/viewform",
     },
     {
       title: "Trinity Pass - 3 Person Pass",

@@ -71,7 +71,7 @@ const EventsSection = () => {
     {
       title: "HackNova 2025",
       src: "hacknova-2025.jpeg",
-      description: "Join us for an exhilarating day of hackathon where innovation meets implementation! HackNova 2025 brings together brilliant minds to solve real-world problems using cutting-edge technologies in AI and ML.",
+      description: "Get ready for the ultimate coding showdown! Our Hackathon challenges you to innovate, collaborate, and push the boundaries of technology. Whether you're a coding prodigy or a creative thinker, this is your chance to build something extraordinary in a high-energy environment. Solve real-world problems, compete with the best minds, and win exciting prizes!",
       redirectLink: "/events/hacknova-2025"
     }
   ];
