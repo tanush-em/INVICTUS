@@ -11,8 +11,8 @@ export default function Home() {
       <main className="min-h-screen z-100 text-white">
         <HeroSection />
         <AboutSection />
-        <EventsSection />
         <PassesSection />
+        <EventsSection />
         <ContactSection />
       </main>
   );

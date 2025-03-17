@@ -7,24 +7,38 @@ import Link from 'next/link';
 const PassDetails = () => {
   const passes = [
     {
+      title: "Solo Pass - Individual Pass",
+      price: "₹ 349",
+      description: "The Solo Pass is perfect for individual participants looking to make the most of our symposium. Gain entry to select technical and non-technical events, savor delicious meals, and compete for fantastic prizes! Experience innovation at its finest!",
+      features: [
+        "Food provided (veg / non-veg)",
+        "Access to 2 Technical Event (except Hacknova 2025)",
+        "Access to 1 non-Technical Event (except Corporate Walk, Turf Showdown Event)",
+        "Win exciting Rewards and Cash Prizes",
+      ],
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSd7gOZpz36GAeD2V9fjAq1SeGmz_o2jzJntgxbcABDlVJNaBg/viewform",
+    },
+    {
       title: "Trinity Pass - 3 Person Pass",
       price: "₹ 999",
       description: "The Trinity Pass grants entry for a team of three to experience the best of our symposium. Enjoy delicious meals, participate in top-tier technical and non-technical events, and compete for exclusive rewards and cash prizes. Get ready for an exciting and immersive tech fest!",
       features: [
         "Food provided (veg / non-veg)",
         "Access to 2 Technical Events (except Hacknova 2025)",
-        "Access to 1 non Technical Event (except Corporate Walk, Turf Showdown Event)",
+        "Access to 1 non-Technical Event (except Corporate Walk, Turf Showdown Event)",
         "Win exclusive Rewards and Cash Prizes",
-      ]
+      ],
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSd7gOZpz36GAeD2V9fjAq1SeGmz_o2jzJntgxbcABDlVJNaBg/viewform",
     },
   ];
+    
 
   return (
     <section id="passes" className="py-20 px-8">
-      <div className="max-w-2xl mx-auto">
-        <h2 className="text-5xl font-bold mb-12 text-center">Passes</h2>
+      <div className="max-w-3xl mx-auto">
+        <h2 className="text-5xl grid font-bold mb-12 text-center">Passes</h2>
 
-        <div className="">
+        <div className="grid grid-cols-2 gap-12">
           {passes.map((pass, index) => (
             <motion.div
               key={index}
@@ -48,7 +62,7 @@ const PassDetails = () => {
               </div>
 
               <div className="w-full flex justify-center">
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSd7gOZpz36GAeD2V9fjAq1SeGmz_o2jzJntgxbcABDlVJNaBg/viewform" target="_blank">
+                <Link href={pass.link} target="_blank">
                   <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                     Purchase Pass
                   </button>

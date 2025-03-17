@@ -47,25 +47,25 @@ const EventsSection = () => {
     {
       title: "Escape Logic",
       src: "escape-logic.jpeg",
-      description: "Join this thrilling Escape Room-Themed Coding Event, where logic and programming skills unlock your freedom! 🧩🔓",
+      description: "Do you have what it takes to escape? Join this thrilling Escape Room-Themed Coding Event, where logic and programming skills unlock your freedom! Solve mystery-driven coding challenges and navigate the Escape Matrix using your problem-solving expertise. Only the smartest minds will escape!",
       redirectLink: "/events/escape-logic"
     },
     {
       title: "Paper Presentation",
       src: "paper-presentation.jpeg",
-      description: "Showcase your research and ideas in AI, ML, and emerging technologies. 📝🎙️",
+      description: "Showcase your research and ideas in AI, ML, and emerging technologies. Compete in two rounds—submit a compelling abstract and present your insights in front of experts. Gain valuable feedback, refine your presentation skills, and stand out in the world of innovation.",
       redirectLink: "/events/paper-presentation"
     },
     {
       title: "Cipher Mind",
       src: "cipher-mind.jpeg",
-      description: "Get ready for an exciting tech quiz competition that tests your problem-solving and technical knowledge! 🧠🎲",
+      description: "Get ready for an exciting tech quiz competition that tests your problem-solving and technical knowledge! The event consists of two thrilling rounds – a fast-paced buzzer round with riddles and picture hints, followed by a spin-the-wheel challenge where teams tackle topic-based technical questions. A dynamic leaderboard will keep track of scores in real-time, adding to the excitement!",
       redirectLink: "/events/cipher-mind"
     },
     {
       title: "Meme-O-Matic",
       src: "meme-o-matic.jpeg",
-      description: "Generate memes and digital artwork based on a given context using AI tools! 🚀🔥",
+      description: "Unleash your creativity with AI! Teams will generate memes and digital artwork based on a given context using AI tools like image generators. Showcase your wit, humor, and artistic flair in this exciting fusion of technology and creativity! 🚀🔥",
       redirectLink: "/events/meme-o-matic"
     },
     {
