@@ -47,31 +47,31 @@ const EventsSection = () => {
     {
       title: "Escape Logic",
       src: "escape-logic.jpeg",
-      description: "Do you have what it takes to escape? Join this thrilling Escape Room-Themed Coding Event, where logic and programming skills unlock your freedom! Solve mystery-driven coding challenges and navigate the Escape Matrix using your problem-solving expertise. Only the smartest minds will escape!",
+      description: "Do you have what it takes to escape? Join this thrilling Escape Room-Themed Coding Event, where logic and programming skills unlock your freedom!",
       redirectLink: "/events/escape-logic"
     },
     {
       title: "Paper Presentation",
       src: "paper-presentation.jpeg",
-      description: "Showcase your research and ideas in AI, ML, and emerging technologies. Compete in two rounds—submit a compelling abstract and present your insights in front of experts. Gain valuable feedback, refine your presentation skills, and stand out in the world of innovation.",
+      description: "Showcase your research and ideas in AI, ML, and emerging technologies. Compete in two rounds—submit a compelling abstract and present your insights in front of experts.",
       redirectLink: "/events/paper-presentation"
     },
     {
       title: "Cipher Mind",
       src: "cipher-mind.jpeg",
-      description: "Get ready for an exciting tech quiz competition that tests your problem-solving and technical knowledge! The event consists of two thrilling rounds – a fast-paced buzzer round with riddles and picture hints, followed by a spin-the-wheel challenge where teams tackle topic-based technical questions. A dynamic leaderboard will keep track of scores in real-time, adding to the excitement!",
+      description: "Get ready for an exciting tech quiz competition that tests your problem-solving and technical knowledge! A dynamic leaderboard will keep track of scores in real-time, adding to the excitement!",
       redirectLink: "/events/cipher-mind"
     },
     {
       title: "Meme-O-Matic",
       src: "meme-o-matic.jpeg",
-      description: "Unleash your creativity with AI! Teams will generate memes and digital artwork based on a given context using AI tools like image generators. Showcase your wit, humor, and artistic flair in this exciting fusion of technology and creativity! 🚀🔥",
+      description: "Unleash your creativity with AI! Teams will generate memes and digital artwork based on a given context using AI tools. Showcase your wit, humor, and artistic flair !",
       redirectLink: "/events/meme-o-matic"
     },
     {
       title: "HackNova 2025",
       src: "hacknova-2025.jpeg",
-      description: "Get ready for the ultimate coding showdown! Our Hackathon challenges you to innovate, collaborate, and push the boundaries of technology. Whether you're a coding prodigy or a creative thinker, this is your chance to build something extraordinary in a high-energy environment. Solve real-world problems, compete with the best minds, and win exciting prizes!",
+      description: "Get ready for the ultimate coding showdown! Our Hackathon challenges you to innovate, collaborate, and push the boundaries of technology. Whether you're a coding prodigy or a creative thinker, this is your chance to build something extraordinary in a high-energy environment.",
       redirectLink: "/events/hacknova-2025"
     }
   ];
@@ -80,38 +80,38 @@ const EventsSection = () => {
     {
       title: "Cricket Football Showdown",
       src: "turf-cricket.jpeg",
-      description: "Get ready to showcase your cricketing skills in an exciting 5-a-side Turf Cricket tournament! Experience fast-paced action, strategic gameplay, and thrilling moments as teams compete for glory !",
+      description: "Get ready to showcase your sports skills. Experience fast-paced action, strategic gameplay, and thrilling moments as teams compete for glory !",
       redirectLink: "/events/turf-cricket-showdown"
     },
     {
       title: "Soul’O Singing",
       src: "solo-singing.jpeg",
-      description: "Unleash your vocal prowess in Solo Pitch, the ultimate singing showdown! Whether you’re a professional singer or a bathroom singer ,this competition is your chance to captivate the audience and judges alike. Show off your range, stage presence, and musical expression to claim the title of the event!",
+      description: "Unleash your vocal prowess in Solo Pitch, the ultimate singing showdown! Show off your range, stage presence, and musical expression to claim the title of the event!",
       redirectLink: "/events/solo-singing"
     },
     {
       title: "Murder Mystery",
       src: "murder-mystery.jpeg",
-      description: "Step into the world of mystery and intrigue in Murder Mystery! Work as a team to crack puzzles, solve riddles, and hunt for clues across four thrilling rounds—from decoding crosswords and crime riddles to unmasking the murderer !",
+      description: "Step into the world of mystery and intrigue in Murder Mystery! Work as a team to crack puzzles, solve riddles, and hunt for clues across campus !",
       redirectLink: "/events/murder-mystery"
     },
     {
       title: "Dance Arena",
       src: "dance-arena.jpeg",
-      description: "Take center stage and let your passion for dance shine in the Solo Dance competition! This is your moment to mesmerize the audience with your rhythm, expression, and creativity.",
+      description: "Take center stage and let your passion for dance shine in the Solo Dance competition! This is your moment to mesmerize the audience with your rhythm and expressions.",
       redirectLink: "/events/dance-arena"
     },
     {
 
       title: "Corporate Walk",
       src: "corporate-walk.jpeg",
-      description: "Step into professionalism with Corporate Walk, where confidence meets charisma! Stride with elegance, showcase your presence, and embody corporate excellence. Whether you’re a seasoned professional or a budding leader, this is your chance to leave a lasting impression and walk your way to success!",
+      description: "Step into professionalism with Corporate Walk, where confidence meets charisma! Stride with elegance, showcase your presence, and embody corporate excellence.",
       redirectLink: "/events/corporate-walk"
     },
     {
       title: "Kollywood Trivia",
       src: "kollywood-trivia.jpeg",
-      description: "Step into the vibrant world of Kollywwood Trivia, where your passion for films takes center stage! Test your knowledge with challenging questions and clever clues that celebrate iconic movies, memorable tunes, and behind-the-scenes secrets.",
+      description: "Step into the vibrant world of Kollywwood Trivia, where your passion for films takes center stage! Test your knowledge with challenging questions and clever clues.",
       redirectLink: "/events/kollywood-trivia"
     }
   ];
