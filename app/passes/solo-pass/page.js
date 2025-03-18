@@ -40,13 +40,11 @@ const SoloPassPage = () => {
           </ul>
         </div>
 
-        {/* Why Choose This Pass */}
         <div className="text-left space-y-5 mb-8">
           <h2 className="text-2xl font-semibold text-white">Why Choose This Pass?</h2>
           <p className="text-gray-300 text-lg">{pass.whyChoose}</p>
         </div>
 
-        {/* Price & Purchase Button */}
         <div className="mt-10 text-center">
           <p className="text-5xl font-extrabold text-yellow-400 mb-8">{pass.price}</p>
           <Link href={pass.link} target="_blank">
