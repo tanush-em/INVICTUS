@@ -12,7 +12,7 @@ const SoloPassPage = () => {
     features: [
       "Food provided (veg / non-veg)",
       "Access to 2 Technical Events (except Hacknova 2025)",
-      "Access to 1 Non-Tech Event (except Corporate Walk, Turf Showdown Event)",
+      "Access to 2 Non-Tech Event (except Corporate Walk, Turf Showdown Event)",
       "Win exciting rewards and cash prizes",
       "Meet industry experts and like-minded innovators",
     ],

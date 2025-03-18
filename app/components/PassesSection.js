@@ -14,7 +14,7 @@ const PassDetails = () => {
       features: [
         "Food provided (veg / non-veg)",
         "Access to 2 Technical Events (except Hacknova 2025)",
-        "Access to 1 Non-Tech Event (except Corporate Walk, Turf Showdown Event)",
+        "Access to 2 Non-Tech Event (except Corporate Walk, Turf Showdown Event)",
         "Win exciting Rewards and Cash Prizes",
       ],
       link: "passes/solo-pass/",
