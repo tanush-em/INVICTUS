@@ -59,7 +59,7 @@ export default function SportsEvents() {
           <p><strong>Email:</strong> samjefferson2005@gmail.com</p>
         </div>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-6 flex justify-center">
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeQ_SkuS9fS8fHklEdShF4Uq1mGdBeOgEQ7uIsDv1j39OGrKw/viewform" target="_blank">
             <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
               Register Now
@@ -115,7 +115,7 @@ export default function SportsEvents() {
           <p><strong>Email:</strong> samjefferson2005@gmail.com</p>
         </div>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-6 flex justify-center">
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeu8F7ez_HCKOaGe3_2D7ZrOMbH-gPXGvFEhBznKX5tdTPH9A/viewform?usp=sharing" target="_blank">
             <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
               Register Now
