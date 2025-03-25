@@ -17,7 +17,7 @@ export default function CorporateWalk() {
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
-        <p className="mt-2"><strong>Team Size:</strong> 6-8 members</p>
+        <p className="mt-2"><strong>Team Size:</strong> 5-7 members</p>
         <p><strong>Entry Fee:</strong> ₹100 per person</p>
         <p><strong>Location:</strong> TRP Auditorium</p>
       </div>
