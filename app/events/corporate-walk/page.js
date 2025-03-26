@@ -31,6 +31,7 @@ export default function CorporateWalk() {
           <li>Only formal wear is allowed. No costumes will be provided by the organizers—teams must arrange their own.</li>
           <li>Each group should bring its own background music to complement the performance.</li>
           <li>The use of fire-related items such as lighters, matches, and cigarettes is strictly prohibited.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 

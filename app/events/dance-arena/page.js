@@ -29,6 +29,7 @@ export default function DanceArena() {
           <li>If the time limit is exceeded, the audio will be paused.</li>
           <li>Profanity and vulgarity will lead to immediate disqualification.</li>
           <li>Decision of the judges will be final and up for no discussion.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 

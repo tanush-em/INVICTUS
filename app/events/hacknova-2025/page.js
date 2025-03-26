@@ -53,6 +53,7 @@ export default function HackNova2025() {
           <li>Projects will be judged on creativity, execution, and impact.</li>
           <li>Participants retain ownership of their projects but allow organizers to use materials for promotion.</li>
           <li>Teams violating rules may be disqualified.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 

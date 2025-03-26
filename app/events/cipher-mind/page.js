@@ -40,6 +40,7 @@ export default function CipherMind() {
           <li>Use of external resources (internet, books, etc.) is strictly prohibited.</li>
           <li>The decision of the quizmaster/judges is final.</li>
           <li>Points will be awarded based on accuracy, with deductions for excessive hint usage.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 
