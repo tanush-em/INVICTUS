@@ -46,6 +46,7 @@ export default function SportsEvents() {
             <li>Umpire’s decision is final – arguing with the umpire can result in penalties.</li>
             <li>Use of abusive language or misconduct will lead to immediate disqualification.</li>
             <li>Players must wear sports attire.</li>
+            <li>No refund of registeration fee will be issued for any reason.</li>
           </ul>
         </div>
 
@@ -102,6 +103,7 @@ export default function SportsEvents() {
             <li>Matches will have two halves of [5+1+5 mins] with a short break in between.</li>
             <li>In case of a draw during knockout rounds, penalty shootouts will determine the winner.</li>
             <li>The referee’s decision is final, and any misconduct will lead to disqualification.</li>
+            <li>No refund of registeration fee will be issued for any reason.</li>
           </ul>
         </div>
 

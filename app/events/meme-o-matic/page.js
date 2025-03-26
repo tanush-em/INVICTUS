@@ -38,6 +38,7 @@ export default function MemeOMatic() {
           <li>Use provided AI tools only.</li>
           <li>Content must align with the given theme.</li>
           <li>Offensive or inappropriate content leads to disqualification.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 

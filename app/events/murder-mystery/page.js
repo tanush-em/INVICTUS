@@ -56,6 +56,7 @@ export default function MurderMystery() {
           <li>All players must respect the game actors and follow their instructions.</li>
           <li>Any team caught cheating will be immediately disqualified.</li>
           <li>In the event of a tie, the decision of the event coordinators will be final.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 

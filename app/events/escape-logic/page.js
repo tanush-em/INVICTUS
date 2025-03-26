@@ -40,6 +40,7 @@ export default function EscapeLogic() {
           <li><strong>Fair Play:</strong> No external help, AI-generated solutions, or plagiarism is allowed.</li>
           <li><strong>Judging Criteria:</strong> Based on accuracy, efficiency, and logical approach to solving challenges.</li>
           <li><strong>Disqualification:</strong> Any violation of rules will lead to immediate disqualification.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 

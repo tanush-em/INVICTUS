@@ -38,6 +38,7 @@ export default function PaperPresentation() {
           <li>Presentations must be in English and adhere to the time limit.</li>
           <li>Bring your laptop & charger.</li>
           <li>Judges’ decisions are final.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 

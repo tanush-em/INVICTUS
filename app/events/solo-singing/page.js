@@ -30,6 +30,7 @@ export default function SoulOSinging() {
           <li>Karaoke should be submitted earlier if needed (including karaoke, performance duration shouldn't exceed more than 2 mins).</li>
           <li>Instruments are allowed as long as participants have all the requirements to make proper arrangements.</li>
           <li>Decisions made by judges are final.</li>
+          <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>
       </div>
 
