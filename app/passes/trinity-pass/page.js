@@ -17,7 +17,7 @@ const TrinityPassPage = () => {
     ],
     whyChoose:
       "This pass is the perfect choice for small teams who want to explore the symposium together. It offers the best value for groups, letting you compete, learn, and enjoy the event with your team.",
-    link: "/passes/trinity-pass/",
+    link: "https://forms.gle/ieTfupLpJayFtQnh8",
   };
 
   return (
