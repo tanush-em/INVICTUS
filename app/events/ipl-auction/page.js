@@ -9,7 +9,7 @@ export default function SportsEvents() {
       <div className="mt-4 mb-8 flex justify-center">
         <Image src="/ipl-auction.jpeg" alt="IPL Auction Showdown" width={500} height={300} className="rounded-lg shadow-md" />
       </div>
-      <div className="max-w-3xl bg-gray-800 p-2 mt-8 rounded-2xl shadow-2xl border border-gray-700">
+      <div className="max-w-3xl p-2 mt-8 rounded-2xl shadow-2xl border">
         <h1 className="text-4xl font-bold text-center mt-12">Mock IPL Auction</h1>
         <p className="mt-4 text-gray-300 text-lg">
           Experience the thrill of bidding in our exciting Mock IPL Auction event!
