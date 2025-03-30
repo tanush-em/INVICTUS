@@ -78,10 +78,10 @@ const EventsSection = () => {
 
   const nonTechnicalEvents = [
     {
-      title: "Cricket Football Showdown",
-      src: "turf-cricket.jpeg",
-      description: "Get ready to showcase your sports skills. Experience fast-paced action, strategic gameplay, and thrilling moments as teams compete for glory !",
-      redirectLink: "/events/turf-cricket-showdown"
+      title: "IPL Auction",
+      src: "ipl-auction.png",
+      description: "Experience the thrill of bidding in our exciting Mock IPL Auction event! Step into the shoes of franchise owners, manage your virtual budget, and build your dream team of cricket superstars.",
+      redirectLink: "/events/ipl-auction"
     },
     {
       title: "Soul’O Singing",
