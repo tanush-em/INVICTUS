@@ -7,9 +7,9 @@ export default function SportsEvents() {
       <h1 className="text-4xl font-bold text-center">IPL Auction Showdown</h1>
 
       <div className="mt-4 mb-8 flex justify-center">
-        <Image src="/ipl-auction.jpeg" alt="IPL Auction Showdown" width={500} height={300} className="rounded-lg shadow-md" />
+        <Image src="/ipl-auction.png" alt="IPL Auction Showdown" width={500} height={300} className="rounded-lg shadow-md" />
       </div>
-      <div className="max-w-3xl p-2 mt-8 rounded-2xl shadow-2xl border">
+      <div className="max-w-3xl p-2 mt-8 rounded-2xl shadow-2xl">
         <h1 className="text-4xl font-bold text-center mt-12">Mock IPL Auction</h1>
         <p className="mt-4 text-gray-300 text-lg">
           Experience the thrill of bidding in our exciting Mock IPL Auction event!
@@ -20,9 +20,8 @@ export default function SportsEvents() {
 
         <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold">Participation Details</h2>
-          <p className="mt-2"><strong>Team Size:</strong> 3-4 members per franchise</p>
-          <p><strong>Entry Fee:</strong> ₹ 500 per franchise</p>
-          <p><strong>Location:</strong> <Link href="https://maps.app.goo.gl/UjK3zErpRCWWijas8?g_st=aw" className='text-sky-500 hover:text-sky-700'>Phoenix Event Hub, Manapakkam</Link></p>
+          <p className="mt-2"><strong>Team Size:</strong> 3-4 members per team</p>
+          <p><strong>Entry Fee:</strong> Free entry for all</p>
           <p><strong>Date:</strong>April 12, 2025</p>
           <p><strong>Time:</strong>9:00 AM - 5:00 PM</p>
         </div>
