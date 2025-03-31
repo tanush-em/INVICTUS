@@ -21,7 +21,7 @@ export default function SportsEvents() {
         <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold">Participation Details</h2>
           <p className="mt-2"><strong>Team Size:</strong> 3-4 members per team</p>
-          <p><strong>Entry Fee:</strong> Free entry for all</p>
+          <p><strong>Entry Fee:</strong>₹ 50 for 2 members (₹ 25 for every additional member)</p>
           <p><strong>Date:</strong> April 12, 2025</p>
           <p><strong>Time:</strong> 9:00 AM - 5:00 PM</p>
         </div>
@@ -81,7 +81,7 @@ export default function SportsEvents() {
         </div>
 
         <div className="mt-6 flex justify-center">
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeQ_SkuS9fS8fHklEdShF4Uq1mGdBeOgEQ7uIsDv1j39OGrKw/viewform" target="_blank">
+          <Link href="https://docs.google.com/forms/d/1a9D6rxcK1wjsksyL_lLk65u-oHALSw2Ui1UzF57xFcs/edit" target="_blank">
             <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
               Register Now
             </button>
