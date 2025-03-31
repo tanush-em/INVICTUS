@@ -72,12 +72,10 @@ export default function SportsEvents() {
 
         <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold">Contact Information</h2>
-          <p className="mt-2"><strong>Name:</strong> Sundar</p>
-          <p><strong>Phone:</strong> 9940236047</p>
-          <p><strong>Email:</strong> rk.sundu21@gmail.com</p>
+          <p className="mt-2"><strong>Name:</strong> Sakthivel</p>
+          <p><strong>Phone:</strong> 9003297285</p>
           <p className="mt-2"><strong>Name:</strong> Sam Jefferson</p>
           <p><strong>Phone:</strong> 8939771980</p>
-          <p><strong>Email:</strong> samjefferson2005@gmail.com</p>
         </div>
 
         <div className="mt-6 flex justify-center">

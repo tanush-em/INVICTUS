@@ -48,8 +48,7 @@ export default function KollywoodTrivia() {
           <li>Each team consists of 2–4 members.</li>
           <li>The team that presses the buzzer first gets the chance to answer.</li>
           <li>Team members may discuss the answer before responding.</li>
-          <li>If a team cannot answer within 15 seconds, the question is passed to the next team.</li>
-          <li>The top three teams will advance to the next round.</li>
+          <li>If a team cannot answer within the alloted time, the question is passed to the next team.</li>
           <li>The judges’ decisions are final.</li>
           <li>No refund of registeration fee will be issued for any reason.</li>
         </ul>

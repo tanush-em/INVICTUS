@@ -64,10 +64,8 @@ export default function MurderMystery() {
         <h2 className="text-2xl font-semibold">Contact Information</h2>
         <p className="mt-2"><strong>Name:</strong> Sundar</p>
         <p><strong>Phone:</strong> 9940236047</p>
-        <p><strong>Email:</strong> rk.sundu21@gmail.com</p>
-        <p className="mt-2"><strong>Name:</strong> Sam</p>
-        <p><strong>Phone:</strong> 8939771980</p>
-        <p><strong>Email:</strong> samjefferson2005@gmail.com</p>
+        <p className="mt-2"><strong>Name:</strong> Pranavaa</p>
+        <p><strong>Phone:</strong> 9042079308</p>
       </div>
 
       <div className="mt-8 flex justify-center">

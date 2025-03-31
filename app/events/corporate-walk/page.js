@@ -26,7 +26,7 @@ export default function CorporateWalk() {
         <h2 className="text-2xl font-semibold">Rules & Regulations</h2>
         <ul className="list-disc list-inside mt-2 text-lg">
           <li>Participants must exhibit professional attire, grooming, and presentation that reflect a corporate attitude.</li>
-          <li>Each team should have 6-8 members.</li>
+          <li>Each team should have 5-7 members.</li>
           <li>Each team will have a total of 6 minutes (5 minutes for the performance + a 1-minute buffer).</li>
           <li>Only formal wear is allowed. No costumes will be provided by the organizers—teams must arrange their own.</li>
           <li>Each group should bring its own background music to complement the performance.</li>
