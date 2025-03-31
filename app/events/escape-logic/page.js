@@ -47,7 +47,7 @@ export default function EscapeLogic() {
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Contact Information</h2>
         <p className="mt-2"><strong>Name:</strong> Megala.P</p>
-        <p><strong>Phone:</strong> 9498438974</p>
+        <p><strong>Phone:</strong> 6381873100</p>
         <p className="mt-2"><strong>Name:</strong> Harsha Varthini</p>
         <p><strong>Phone:</strong> 9080387954</p>
       </div>
