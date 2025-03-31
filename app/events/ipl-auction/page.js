@@ -22,32 +22,51 @@ export default function SportsEvents() {
           <h2 className="text-2xl font-semibold">Participation Details</h2>
           <p className="mt-2"><strong>Team Size:</strong> 3-4 members per team</p>
           <p><strong>Entry Fee:</strong> Free entry for all</p>
-          <p><strong>Date:</strong>April 12, 2025</p>
-          <p><strong>Time:</strong>9:00 AM - 5:00 PM</p>
+          <p><strong>Date:</strong> April 12, 2025</p>
+          <p><strong>Time:</strong> 9:00 AM - 5:00 PM</p>
         </div>
 
         <div className="mt-6">
           <h2 className="text-2xl font-semibold">Event Flow</h2>
           <ul className="list-disc list-inside mt-2 text-lg">
-            <li><strong>Phase 1:</strong> Franchise orientation and virtual budget allocation.</li>
-            <li><strong>Phase 2:</strong> Marquee players auction featuring top international and Indian stars.</li>
-            <li><strong>Phase 3:</strong> Main auction with categorized player pools (batsmen, bowlers, all-rounders, etc.).</li>
-            <li><strong>Phase 4:</strong> Team analysis and awards ceremony for best strategy, value picks, and overall team.</li>
+            <li><strong>Round 1:</strong> Quiz Round (Elimination Round) - Test teams on their cricket and IPL knowledge to qualify for the auction round.</li>
+            <li><strong>Round 2:</strong> IPL Mock Auction Round - Qualified teams bid for players and build their best 11 squad.</li>
+            <li>The most well-balanced 11 with an impact player will be declared the winners.</li>
           </ul>
         </div>
 
         <div className="mt-6">
           <h2 className="text-2xl font-semibold">Rules & Regulations</h2>
           <ul className="list-disc list-inside mt-2 text-lg">
-            <li>Each franchise will have a virtual budget of ₹100 crore.</li>
-            <li>Teams must purchase a minimum of 18 and maximum of 25 players.</li>
-            <li>Each team must include at least 5 international players and 3 uncapped players.</li>
-            <li>Minimum bid increment is ₹5 lakh for uncapped players and ₹10 lakh for others.</li>
-            <li>RTM (Right To Match) cards will be available as per official IPL auction rules.</li>
-            <li>Teams must maintain salary cap compliance throughout the auction.</li>
-            <li>Auction decisions by the auctioneer are final and binding.</li>
-            <li>Use of mobile phones for external assistance is prohibited during bidding.</li>
-            <li>No refund of registration fee will be issued for any reason.</li>
+            <li><strong>Team Composition & Budget:</strong></li>
+            <ul className="ml-6 list-disc">
+              <li>Each team must build a squad of 11 players within a budget of ₹25 crores.</li>
+              <li>A team must have a balanced squad consisting of:
+                <ul className="ml-6 list-disc">
+                  <li>4 overseas players (in playing 11)</li>
+                  <li>1 wicketkeeper (compulsory)</li>
+                  <li>4 bowlers (compulsory)</li>
+                  <li>4 batsmen (compulsory)</li>
+                  <li>2 all-rounders (compulsory)</li>
+                </ul>
+              </li>
+            </ul>
+            <li><strong>Auction Process:</strong></li>
+            <ul className="ml-6 list-disc">
+              <li>Each team will be given an initial budget of ₹25 crores to bid for players.</li>
+              <li>Players will be categorized into different sets (Batsmen, Bowlers, All-rounders, and Wicketkeepers).</li>
+              <li>The auctioneer will call out the base price of a player, and teams will place bids in increments of ₹20 lakhs or more.</li>
+              <li>If no team bids for a player, they remain unsold.</li>
+            </ul>
+            <li><strong>Bidding Rules:</strong></li>
+            <ul className="ml-6 list-disc">
+              <li>Once a team reaches its full squad (11 players) or runs out of budget, they must stop bidding and submit their squad.</li>
+              <li>If the squad doesn't consist of 11 players with no budget, they get disqualified with immediate effect.</li>
+            </ul>
+            <li><strong>Player Categories & Base Prices:</strong> Players will have base prices starting from ₹20 to 50 lakhs.</li>
+            <li><strong>Time Limits & Penalties:</strong> Teams get 20 seconds to place a bid. If they fail, the bid moves to the next team.</li>
+            <li><strong>Final Squad Submission:</strong> At the end of the auction, each team submits their final playing XI along with their remaining budget.</li>
+            <li><strong>Winning Criteria:</strong> The team with the most well-balanced squad will be declared the winner.</li>
           </ul>
         </div>
 
