@@ -20,7 +20,7 @@ export default function SportsEvents() {
 
         <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold">Participation Details</h2>
-          <p className="mt-2"><strong>Team Size:</strong> 3-4 members per team</p>
+          <p className="mt-2"><strong>Team Size:</strong> 2-4 members per team</p>
           <p><strong>Entry Fee:</strong>₹ 50 for 2 members (₹ 25 for every additional member)</p>
           <p><strong>Date:</strong> April 12, 2025</p>
           <p><strong>Time:</strong> 9:00 AM - 5:00 PM</p>
