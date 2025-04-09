@@ -119,6 +119,7 @@ const EventsSection = () => {
   return (
     <div id="events" className="w-full py-20 px-4 md:px-8">
       <h2 className="text-5xl font-bold mb-16 text-center">Events</h2>
+      <p className='text-gray-300'>ON SPOT Registeration available for selective events.</p>
       <div className="max-w-7xl mx-auto">
         <h3 className="text-4xl font-bold text-neutral-200 mb-8">Technical Events</h3>
         <div className="grid grid-cols-1 gap-6 mb-16">
