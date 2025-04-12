@@ -83,6 +83,14 @@ export default function HackNova2025() {
           </button>
         </Link>
       </div> 
+
+      <div className="mt-8 flex justify-center">
+        <Link href="https://chat.whatsapp.com/BaIt0ah3sR4ClSGSkqM4N6" target="_blank">
+          <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
+            JOIN THE WHATSAPP COMMUNITY FOR UPDATES
+          </button>
+        </Link>
+      </div> 
     </div>
   );
 }
