@@ -5,8 +5,8 @@ export default function AboutSection() {
   const features = [
     {
       icon: Calendar,
-      title: "12th April 2025",
-      subtitle: "Saturday",
+      title: "27th March 2026",
+      subtitle: "Friday",
       color: "text-yellow-500",
       description: "Join us for a full day of innovation and enjoyment."
     },

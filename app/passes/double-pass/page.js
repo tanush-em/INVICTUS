@@ -3,20 +3,20 @@
 import { CheckCircle } from "lucide-react";
 import Link from "next/link";
 
-const SoloPassPage = () => {
+const DoublePassPage = () => {
   const pass = {
-    title: "Solo Pass",
-    price: "₹ 500",
+    title: "Double Pass - 2 People",
+    price: "₹ 850",
     description:
-      "The Solo Pass is ideal for solo participants looking to experience the best of our symposium. Whether you are a tech enthusiast, a problem solver, or just someone eager to network, this pass gives you access to an unforgettable experience!",
+      "The Double Pass grants entry for a team of two to experience the best of our symposium. Participate in top-tier technical events and compete for exclusive rewards and cash prizes. Get ready for an exciting and immersive tech fest!",
     features: [
       "Food provided (veg / non-veg)",
-      "Access to 3 Technical Events",
-      "Win exciting rewards and cash prizes",
+      "Access to 4 Technical Events",
+      "Win exclusive Rewards and Cash Prizes",
     ],
     whyChoose:
-      "This pass is perfect for those who want a compact yet rewarding symposium experience. You get a chance to compete, learn, and network while enjoying exclusive perks.",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScl5ebazqBwfFoMTCGrTYrOiEjUwl_XmNanmPmEXDu5NtSqlg/viewform",
+      "This pass is the perfect choice for pairs who want to explore the symposium together. It offers the best value for teams of two, letting you compete, learn, and enjoy the event with your partner.",
+    link: "https://forms.gle/ieTfupLpJayFtQnh8",
   };
 
   return (
@@ -38,11 +38,13 @@ const SoloPassPage = () => {
           </ul>
         </div>
 
+        {/* Why Choose This Pass */}
         <div className="text-left space-y-5 mb-8">
           <h2 className="text-2xl font-semibold text-white">Why Choose This Pass?</h2>
           <p className="text-gray-300 text-lg">{pass.whyChoose}</p>
         </div>
 
+        {/* Price & Purchase Button */}
         <div className="mt-10 text-center">
           <p className="text-5xl font-extrabold text-yellow-400 mb-8">{pass.price}</p>
           <Link href={pass.link} target="_blank">
@@ -56,4 +58,4 @@ const SoloPassPage = () => {
   );
 };
 
-export default SoloPassPage;
+export default DoublePassPage;

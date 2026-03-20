@@ -7,7 +7,8 @@ export default function HeroSection() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
-    const targetDate = new Date('2025-04-12').getTime();
+    // March 27, 2026 at midnight (local time) - months are 0-indexed
+    const targetDate = new Date(2026, 2, 27, 0, 0, 0).getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -61,7 +62,7 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-emerald-500 to-blue-500 text-transparent bg-clip-text z-20"
       >
-        INVICTUS 2025
+        INVICTUS 2026
       </motion.h1>
 
       <div className="w-full max-w-xs sm:max-w-md md:max-w-lg mx-auto mb-8 px-2">

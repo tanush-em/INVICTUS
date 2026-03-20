@@ -7,30 +7,28 @@ import Link from "next/link";
 const PassDetails = () => {
   const passes = [
     {
-      title: "Solo Pass - Individual Pass",
-      price: "₹ 399",
+      title: "Solo Pass",
+      price: "₹ 500",
       description:
-        "The Solo Pass is perfect for individual participants looking to make the most of our symposium. Gain entry to select technical and non-technical events, savor delicious meals, and compete for fantastic prizes! Experience innovation at its finest!",
+        "The Solo Pass is perfect for individual participants looking to make the most of our symposium. Gain entry to select technical events and compete for fantastic prizes! Experience innovation at its finest!",
       features: [
         "Food provided (veg / non-veg)",
-        "Access to 2 Technical Events (except Hacknova 2025)",
-        "Access to 2 Non-Tech Event (except Corporate Walk, Turf Showdown Event)",
+        "Access to 3 Technical Events",
         "Win exciting Rewards and Cash Prizes",
       ],
       link: "passes/solo-pass/",
     },
     {
-      title: "Trinity Pass - 3 Person Pass",
-      price: "₹ 999",
+      title: "Double Pass - 2 People",
+      price: "₹ 850",
       description:
-        "The Trinity Pass grants entry for a team of three to experience the best of our symposium. Enjoy delicious meals, participate in top-tier technical and non-technical events, and compete for exclusive rewards and cash prizes. Get ready for an exciting and immersive tech fest!",
+        "The Double Pass grants entry for a team of two to experience the best of our symposium. Participate in top-tier technical events and compete for exclusive rewards and cash prizes. Get ready for an exciting and immersive tech fest!",
       features: [
         "Food provided (veg / non-veg)",
-        "Access to 2 Technical Events (except Hacknova 2025)",
-        "Access to 1 Non-Tech Event (except Corporate Walk, Turf Showdown Event)",
+        "Access to 4 Technical Events",
         "Win exclusive Rewards and Cash Prizes",
       ],
-      link: "passes/trinity-pass/",
+      link: "passes/double-pass/",
     },
   ];
 
