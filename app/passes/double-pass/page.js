@@ -11,12 +11,12 @@ const DoublePassPage = () => {
       "The Double Pass grants entry for a team of two to experience the best of our symposium. Participate in top-tier technical events and compete for exclusive rewards and cash prizes. Get ready for an exciting and immersive tech fest!",
     features: [
       "Food provided (veg / non-veg)",
-      "Access to 4 Technical Events",
+      "Access to 6 Technical Events",
       "Win exclusive Rewards and Cash Prizes",
     ],
     whyChoose:
       "This pass is the perfect choice for pairs who want to explore the symposium together. It offers the best value for teams of two, letting you compete, learn, and enjoy the event with your partner.",
-    link: "https://forms.gle/ieTfupLpJayFtQnh8",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScOVdvzUvD-Oy9ZhRtMo1ZEjyyQk22pu5y2XIEWZKoybVq_wA/viewform?usp=dialog",
   };
 
   return (

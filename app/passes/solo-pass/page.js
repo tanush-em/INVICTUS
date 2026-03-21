@@ -16,7 +16,7 @@ const SoloPassPage = () => {
     ],
     whyChoose:
       "This pass is perfect for those who want a compact yet rewarding symposium experience. You get a chance to compete, learn, and network while enjoying exclusive perks.",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScl5ebazqBwfFoMTCGrTYrOiEjUwl_XmNanmPmEXDu5NtSqlg/viewform",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdcdimKe8ASC2MPUeO_yXyQtVofY6BVKntIEl0la_TBdfelzA/viewform?usp=dialog",
   };
 
   return (
