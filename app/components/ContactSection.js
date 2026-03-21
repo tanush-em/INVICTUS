@@ -34,15 +34,15 @@ const ContactSection = () => {
               </div>
               <div className="space-y-2">
                 <a href="tel:+918637650188"
-                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 -my-1 min-h-[44px] flex items-center">
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 active:opacity-80">
                   KAVITHA A — +91 8637650188
                 </a>
                 <a href="tel:+919361493926"
-                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 -my-1 min-h-[44px] flex items-center">
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 active:opacity-80">
                   SANGAMITHRA — +91 9361493926
                 </a>
                 <a href="tel:+917569821736"
-                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 -my-1 min-h-[44px] flex items-center">
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 active:opacity-80">
                   HARINISREE — +91 7569821736
                 </a>
               </div>
