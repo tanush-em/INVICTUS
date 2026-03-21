@@ -14,7 +14,7 @@ export default function StartupPostmortem() {
 
       <div className="mt-4 flex justify-center">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/startup-postmortem.png" alt="Startup Postmortem" className="w-full max-w-[500px] h-[300px] object-cover rounded-lg shadow-md mx-auto" onError={(e) => { e.target.src = 'https://placehold.co/600x400/334155/94a3b8?text=Startup+Postmortem'; }} />
+        <img src="/startup-postmartum.png" alt="Startup Postmortem" className="w-full max-w-[500px] h-[300px] object-cover rounded-lg shadow-md mx-auto" onError={(e) => { e.target.src = 'https://placehold.co/600x400/334155/94a3b8?text=Startup+Postmortem'; }} />
       </div>
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">

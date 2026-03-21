@@ -66,14 +66,14 @@ const eventCategories = [
         { title: "Ideathon: From Thought to Pitch", src: "/ideathon.png", description: "Rapid ideation where teams propose and pitch a tech-driven solution to a specific problem statement.", redirectLink: "/events/ideathon" },
         { title: "Research Royale", src: "/research-royale.png", description: "Formal presentation of a research or project paper including methodology, results, and insights.", redirectLink: "/events/research-royale" },
         { title: "AI Courtroom", src: "/ai-courtroom.png", description: "A structured technical debate where teams argue \"For\" or \"Against\" an emerging technology topic.", redirectLink: "/events/ai-courtroom" },
-        { title: "Startup Postmortem: Why Did It Die?", src: "/startup-postmortem.png", description: "Teams analyze a fictional failed startup and present the technical and strategic reasons for its failure.", redirectLink: "/events/startup-postmortem" }
+        { title: "Startup Postmortem: Why Did It Die?", src: "/startup-postmartum.png", description: "Teams analyze a fictional failed startup and present the technical and strategic reasons for its failure.", redirectLink: "/events/startup-postmortem" }
     ]
   },
   {
     name: "Fun & Creative",
     events: [
         { title: "Break it Down", src: "/break-it-down.png", description: "Explain a complex technical concept simply and humorously to a non-technical \"grandmother\" persona.", redirectLink: "/events/break-it-down" },
-        { title: "Pitch the Pointless", src: "/reverse-ideathon.png", description: "Present the most absurd, impractical tech ideas with a completely serious pitch. Deliver nonsense with confidence and convincing flair!", redirectLink: "/events/reverse-ideathon" },
+        { title: "Pitch the Pointless", src: "/pitch-the-pointless.png", description: "Present the most absurd, impractical tech ideas with a completely serious pitch. Deliver nonsense with confidence and convincing flair!", redirectLink: "/events/reverse-ideathon" },
         { title: "AI Dumb Charades: Act the Algorithm", src: "/ai-dumb-charades.png", description: "Teams communicate AI and tech concepts without words—only actions. Act, guess, and win!", redirectLink: "/events/ai-dumb-charades" }
     ]
   }

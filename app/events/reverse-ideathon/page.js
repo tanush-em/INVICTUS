@@ -12,7 +12,7 @@ export default function ReverseIdeathon() {
       </p>
 
       <div className="mt-4 flex justify-center">
-        <Image src="/reverse-ideathon.png" alt="Pitch the Pointless" width={500} height={300} className="rounded-lg shadow-md w-full max-w-[500px] h-auto" />
+        <Image src="/pitch-the-pointless.png" alt="Pitch the Pointless" width={500} height={300} className="rounded-lg shadow-md w-full max-w-[500px] h-auto" />
       </div>
 
       <div className="mt-4 sm:mt-6 p-4 sm:p-5 bg-gray-600 rounded-lg shadow-md">
