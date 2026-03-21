@@ -62,14 +62,17 @@ export default function ReverseIdeathon() {
 
       <div className="mt-4 sm:mt-6 p-4 sm:p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-lg sm:text-xl md:text-2xl font-semibold">Participation Details</h2>
-        <p className="mt-2 text-gray-300 text-sm sm:text-base"><strong>Team Size:</strong> To be announced</p>
-        <p className="text-gray-300 text-sm sm:text-base"><strong>Entry Fee:</strong> To be announced</p>
+        <p className="mt-2 text-gray-300 text-sm sm:text-base"><strong>Team Size:</strong> 2–4</p>
+        <p className="text-gray-300 text-sm sm:text-base"><strong>Entry Fee:</strong> ₹200</p>
         <p className="text-gray-300 text-sm sm:text-base"><strong>Location:</strong> To be announced</p>
       </div>
 
       <div className="mt-4 sm:mt-6 p-4 sm:p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-lg sm:text-xl md:text-2xl font-semibold">Contact Information</h2>
-        <p className="mt-2 text-gray-300 text-sm sm:text-base"><strong>To be announced</strong></p>
+        <div className="mt-2 space-y-1">
+          <a href="tel:+918122876731" className="text-gray-300 hover:text-blue-500 block text-sm sm:text-base">Manish Varma — +91 8122876731</a>
+          <a href="tel:+917569821736" className="text-gray-300 hover:text-blue-500 block text-sm sm:text-base">Harinisree — +91 7569821736</a>
+        </div>
       </div>
 
       <div className="mt-8 flex justify-center px-4">

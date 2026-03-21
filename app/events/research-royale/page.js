@@ -45,8 +45,8 @@ export default function ResearchRoyale() {
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Participation Details</h2>
-        <p className="mt-2 text-gray-300"><strong>Team Size:</strong> To be announced</p>
-        <p className="text-gray-300"><strong>Entry Fee:</strong> To be announced</p>
+        <p className="mt-2 text-gray-300"><strong>Team Size:</strong> 1–3</p>
+        <p className="text-gray-300"><strong>Entry Fee:</strong> ₹150</p>
         <p className="text-gray-300"><strong>Location:</strong> To be announced</p>
       </div>
 
@@ -54,7 +54,10 @@ export default function ResearchRoyale() {
 
       <div className="mt-6 p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold">Contact Information</h2>
-        <p className="mt-2 text-gray-300"><strong>To be announced</strong></p>
+        <div className="mt-2 space-y-1">
+          <a href="tel:+919840430187" className="text-gray-300 hover:text-blue-500 block">Monisha R — +91 9840430187</a>
+          <a href="tel:+917569821736" className="text-gray-300 hover:text-blue-500 block">Harinisree — +91 7569821736</a>
+        </div>
       </div>
 
       <div className="mt-8 flex justify-center">

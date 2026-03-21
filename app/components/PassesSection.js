@@ -13,7 +13,7 @@ const PassDetails = () => {
         "The Solo Pass is perfect for individual participants looking to make the most of our symposium. Gain entry to select technical events and compete for fantastic prizes! Experience innovation at its finest!",
       features: [
         "Food provided (veg / non-veg)",
-        "Access to 3 Technical Events",
+        "Access to 3 Events",
         "Win exciting Rewards and Cash Prizes",
       ],
       link: "passes/solo-pass/",
@@ -25,7 +25,7 @@ const PassDetails = () => {
         "The Double Pass grants entry for a team of two to experience the best of our symposium. Participate in top-tier technical events and compete for exclusive rewards and cash prizes. Get ready for an exciting and immersive tech fest!",
       features: [
         "Food provided (veg / non-veg)",
-        "Access to 4 Technical Events",
+        "Access to 6 Events",
         "Win exclusive Rewards and Cash Prizes",
       ],
       link: "passes/double-pass/",

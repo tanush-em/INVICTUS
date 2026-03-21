@@ -54,7 +54,7 @@ const eventCategories = [
   {
     name: "Technical & Coding",
     events: [
-        { title: "Model Mayhem: Predictive Model Building", src: "/model-mayhem.png", description: "Teams build a predictive model (classification/regression) to solve a problem using a real-world dataset.", redirectLink: "/events/model-mayhem" },
+        { title: "Model Mayhem: A Quiz Battle", src: "/model-mayhem.png", description: "A fast-paced AI quiz battle testing teams on ML, deep learning, and real-world concepts through MCQs, rapid-fire, and scenario-based challenges.", redirectLink: "/events/model-mayhem" },
         { title: "Data Forge: Dataset Cleansing", src: "/data-forge.png", description: "Teams clean, preprocess, and feature-engineer a raw, messy dataset to make it ready for analysis.", redirectLink: "/events/data-forge" },
         { title: "Debug Dash: Code Under Pressure", src: "/debug-dash.png", description: "A buzzer-based challenge to correctly fix buggy code snippets (C/Java/Python) under a time limit.", redirectLink: "/events/debug-dash" },
         { title: "Prompt Wars: Art of Engineering AI", src: "/prompt-wars.png", description: "Teams must craft the most efficient AI prompt to generate an output that matches a given picture.", redirectLink: "/events/prompt-wars" }
