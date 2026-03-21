@@ -75,7 +75,7 @@ export default function HeroSection() {
               <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold tabular-nums truncate">
                 {value}
               </div>
-              <div className="text-[10px] sm:text-xs uppercase truncate">
+              <div className="text-xs uppercase truncate">
                 {unit}
               </div>
             </div>

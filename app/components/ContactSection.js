@@ -32,17 +32,17 @@ const ContactSection = () => {
                 <Phone className="w-8 h-8 sm:w-10 sm:h-10 text-blue-500 flex-shrink-0 mt-1 sm:mt-0" />
                 <h3 className="ml-3 sm:ml-4 text-lg sm:text-xl font-semibold">Call Us</h3>
               </div>
-              <div className="space-y-2 ml-0 sm:ml-12 pl-11 sm:pl-0">
+              <div className="space-y-2">
                 <a href="tel:+918637650188"
-                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-1">
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 -my-1 min-h-[44px] flex items-center">
                   KAVITHA A — +91 8637650188
                 </a>
                 <a href="tel:+919361493926"
-                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-1">
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 -my-1 min-h-[44px] flex items-center">
                   SANGAMITHRA — +91 9361493926
                 </a>
                 <a href="tel:+917569821736"
-                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-1">
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-2 -my-1 min-h-[44px] flex items-center">
                   HARINISREE — +91 7569821736
                 </a>
               </div>

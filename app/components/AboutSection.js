@@ -49,10 +49,10 @@ export default function AboutSection() {
 
   return (
     <>
-      <div id="about" className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8">
+      <div id="about" className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 overflow-x-hidden">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-16">
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 md:mb-6 lg:mb-8 text-white text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 lg:mb-8 text-white text-center">
               About INVICTUS
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 md:mb-8 max-w-4xl mx-auto leading-relaxed px-4 md:px-0">
