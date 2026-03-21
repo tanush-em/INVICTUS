@@ -79,7 +79,7 @@ const ContactSection = () => {
 
             </div>
             <div className="flex flex-wrap justify-center gap-6 sm:gap-8 md:gap-12 p-4 sm:p-6 md:p-10">
-              <Link href="https://www.instagram.com/invictus.eec_25/profilecard/?igsh=dDJiMWhmdzU2Ynlo" target="_blank" rel="noopener noreferrer" className="p-2 -m-2">
+              <Link href="https://www.instagram.com/invictus.eec/" target="_blank" rel="noopener noreferrer" className="p-2 -m-2">
                 <Image src="/insta.png" alt="Instagram" width={72} height={72} className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20" />
               </Link>
 
