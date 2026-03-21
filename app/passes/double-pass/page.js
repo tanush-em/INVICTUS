@@ -16,7 +16,7 @@ const DoublePassPage = () => {
     ],
     whyChoose:
       "This pass is the perfect choice for pairs who want to explore the symposium together. It offers the best value for teams of two, letting you compete, learn, and enjoy the event with your partner.",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScOVdvzUvD-Oy9ZhRtMo1ZEjyyQk22pu5y2XIEWZKoybVq_wA/viewform?usp=dialog",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSf9gxVdf28dUYLdkoPkVQxRuoXAwmKY21TYzKQHJIRBjI-RfA/viewform",
   };
 
   return (

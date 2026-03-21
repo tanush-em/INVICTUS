@@ -79,7 +79,7 @@ export default function StartupPostmortem() {
       </div>
 
       <div className="mt-8 flex justify-center px-4">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfoZilKDBwi-qc6aCd5XLx3gjSFt834fazWuXwrQNvCmcxBtg/viewform?usp=sharing&ouid=107016111243850562059" target="_blank" className="w-full sm:w-auto">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdGBnR5nMOwHMm8D4kBa_2hicDQtBviQJBBKTPZLi79OCVL3w/viewform" target="_blank" className="w-full sm:w-auto">
           <button className="w-full sm:w-auto px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95 min-h-[44px]">
             Register Now
           </button>
