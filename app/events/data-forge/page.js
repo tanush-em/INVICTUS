@@ -58,7 +58,7 @@ export default function DataForge() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScl5ebazqBwfFoMTCGrTYrOiEjUwl_XmNanmPmEXDu5NtSqlg/viewform" target="_blank">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfjGxfMI3lJA-q-5fm8NQc7xGO3QoYXdbG6gf8I5SGcRyJvig/viewform?usp=dialog" target="_blank">
           <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
             Register Now
           </button>

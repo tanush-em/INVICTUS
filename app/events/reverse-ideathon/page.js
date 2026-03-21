@@ -73,7 +73,7 @@ export default function ReverseIdeathon() {
       </div>
 
       <div className="mt-8 flex justify-center px-4">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScl5ebazqBwfFoMTCGrTYrOiEjUwl_XmNanmPmEXDu5NtSqlg/viewform" target="_blank" className="w-full sm:w-auto">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdcsl5O0vXBY8urlqFwHWRvbxHlINjaqfntG-i0s5whPhc91A/viewform?usp=dialog" target="_blank" className="w-full sm:w-auto">
           <button className="w-full sm:w-auto px-6 py-3 text-base sm:text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95 min-h-[44px]">
             Register Now
           </button>

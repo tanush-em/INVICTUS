@@ -57,7 +57,7 @@ export default function PromptWars() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScl5ebazqBwfFoMTCGrTYrOiEjUwl_XmNanmPmEXDu5NtSqlg/viewform" target="_blank">
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfoZilKDBwi-qc6aCd5XLx3gjSFt834fazWuXwrQNvCmcxBtg/viewform?usp=sharing&ouid=107016111243850562059" target="_blank">
           <button className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95">
             Register Now
           </button>
