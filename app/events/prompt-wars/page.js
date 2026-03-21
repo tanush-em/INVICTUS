@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function PromptWars() {
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <div className="p-4 sm:p-6 max-w-3xl mx-auto overflow-x-hidden">
       <h1 className="text-4xl font-bold text-center">Prompt Wars: The Art of Engineering AI</h1>
       <p className="text-center text-xl text-emerald-400 font-semibold mt-2">📷🔥 Craft. Refine. Replicate.</p>
 

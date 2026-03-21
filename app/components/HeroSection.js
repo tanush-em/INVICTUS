@@ -65,17 +65,17 @@ export default function HeroSection() {
         INVICTUS 2026
       </motion.h1>
 
-      <div className="w-full max-w-xs sm:max-w-md md:max-w-lg mx-auto mb-8 px-2">
-        <div className="flex justify-between items-center">
+      <div className="w-full max-w-xs sm:max-w-md md:max-w-lg mx-auto mb-8 px-2 sm:px-4">
+        <div className="grid grid-cols-4 gap-1 sm:gap-2">
           {Object.entries(timeLeft).map(([unit, value]) => (
             <div
               key={unit}
-              className="w-full bg-gray-800/50 backdrop-blur-sm rounded-lg p-2 mx-1"
+              className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-2 sm:p-3 min-w-0"
             >
-              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
+              <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold tabular-nums truncate">
                 {value}
               </div>
-              <div className="text-xs uppercase">
+              <div className="text-[10px] sm:text-xs uppercase truncate">
                 {unit}
               </div>
             </div>

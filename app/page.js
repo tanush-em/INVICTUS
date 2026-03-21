@@ -8,7 +8,7 @@ import ContactSection from './components/ContactSection';
 
 export default function Home() {
   return (
-      <main className="min-h-screen z-100 text-white">
+      <main className="min-h-screen z-10 text-white overflow-x-hidden">
         <HeroSection />
         <AboutSection />
         <PassesSection />

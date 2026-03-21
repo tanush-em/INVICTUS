@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function StartupPostmortem() {
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <div className="p-4 sm:p-6 max-w-3xl mx-auto overflow-x-hidden">
       <h1 className="text-4xl font-bold text-center">Startup Postmortem: Why Did It Die?</h1>
       <p className="text-center text-xl text-emerald-400 font-semibold mt-2">🔍🔥 Analyze. Diagnose. Conclude.</p>
 

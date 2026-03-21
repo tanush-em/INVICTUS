@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function CipherMind() {
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <div className="p-4 sm:p-6 max-w-3xl mx-auto overflow-x-hidden">
       <h1 className="text-4xl font-bold text-center">CipherMind: Tech Quiz Challenge</h1>
 
       <p className="mt-4 text-gray-300 text-lg">

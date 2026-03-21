@@ -5,19 +5,19 @@ import { Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 px-8">
+    <section id="contact" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 overflow-x-hidden">
 
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-5xl font-bold mb-12 text-center">Contact Us</h2>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12 text-center">Contact Us</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16">
 
           <div className="space-y-4">
 
-            <div className="p-4 rounded-xl bg-black/30 hover:bg-black/40 transition shadow-lg border border-gray-600">
+            <div className="p-4 sm:p-5 rounded-xl bg-black/30 hover:bg-black/40 transition shadow-lg border border-gray-600">
               <div className="flex items-center mb-2">
-                <Mail className="w-8 h-8 text-emerald-500 flex-shrink-0" />
-                <h3 className="ml-3 text-lg font-semibold">Email Us</h3>
+                <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-emerald-500 flex-shrink-0" />
+                <h3 className="ml-3 text-base sm:text-lg font-semibold">Email Us</h3>
               </div>
               <a
                 href="mailto:aimlatlas.visionary@gmail.com"
@@ -27,33 +27,33 @@ const ContactSection = () => {
               </a>
             </div>
 
-            <div className="p-6 rounded-xl bg-black/30 hover:bg-black/40 transition shadow-lg border border-gray-600">
-              <div className="flex items-center mb-0">
-                <Phone className="w-10 h-10 text-blue-500" />
-                <h3 className="ml-4 text-xl font-semibold">Call Us</h3>
+            <div className="p-4 sm:p-6 rounded-xl bg-black/30 hover:bg-black/40 transition shadow-lg border border-gray-600">
+              <div className="flex items-start sm:items-center mb-2">
+                <Phone className="w-8 h-8 sm:w-10 sm:h-10 text-blue-500 flex-shrink-0 mt-1 sm:mt-0" />
+                <h3 className="ml-3 sm:ml-4 text-lg sm:text-xl font-semibold">Call Us</h3>
               </div>
-              <div className="space-y-1 ml-12">
-                <a href="tel:+1234567890"
-                  className="text-gray-300 text-lg hover:text-blue-500 transition block">
-                  +91 8610987305
+              <div className="space-y-2 ml-0 sm:ml-12 pl-11 sm:pl-0">
+                <a href="tel:+918637650188"
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-1">
+                  KAVITHA A — +91 8637650188
                 </a>
-                <a href="tel:+1234567890"
-                  className="text-gray-300 text-lg hover:text-blue-500 transition block">
-                  +91 8838422248
+                <a href="tel:+919361493926"
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-1">
+                  SANGAMITHRA — +91 9361493926
                 </a>
-                <a href="tel:+1234567890"
-                  className="text-gray-300 text-lg hover:text-blue-500 transition block">
-                  +91 7200286368
+                <a href="tel:+917569821736"
+                  className="text-gray-300 text-base sm:text-lg hover:text-blue-500 transition block py-1">
+                  HARINISREE — +91 7569821736
                 </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl bg-black/30 border border-gray-600 shadow-lg">
-              <div className="flex items-start space-x-4">
-                <MapPin className="w-10 h-10 text-red-500 mt-1" />
-                <div>
-                  <h3 className="font-semibold text-xl mb-1">Event Location</h3>
-                  <p className="text-gray-300 leading-relaxed">
+            <div className="p-4 sm:p-6 rounded-xl bg-black/30 border border-gray-600 shadow-lg">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <MapPin className="w-8 h-8 sm:w-10 sm:h-10 text-red-500 flex-shrink-0 mt-1" />
+                <div className="min-w-0">
+                  <h3 className="font-semibold text-lg sm:text-xl mb-1">Event Location</h3>
+                  <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                     SRM Easwari Engineering College<br />
                     162, Bharathi Salai,<br />
                     Ramapuram, Chennai,<br />
@@ -78,17 +78,17 @@ const ContactSection = () => {
               </a>
 
             </div>
-            <div className="flex flex-wrap justify-center gap-8 sm:gap-12 p-6 sm:p-10">
-              <Link href="https://www.instagram.com/invictus.eec_25/profilecard/?igsh=dDJiMWhmdzU2Ynlo" target="_blank" rel="noopener noreferrer">
-                <Image src="/insta.png" alt="Instagram" width={72} height={72} className="w-16 sm:w-20  h-auto" />
+            <div className="flex flex-wrap justify-center gap-6 sm:gap-8 md:gap-12 p-4 sm:p-6 md:p-10">
+              <Link href="https://www.instagram.com/invictus.eec_25/profilecard/?igsh=dDJiMWhmdzU2Ynlo" target="_blank" rel="noopener noreferrer" className="p-2 -m-2">
+                <Image src="/insta.png" alt="Instagram" width={72} height={72} className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20" />
               </Link>
 
-              <Link href="https://www.linkedin.com/in/atlas-aiml-eec" target="_blank" rel="noopener noreferrer">
-                <Image src="/linkedin.png" alt="LinkedIn" width={72} height={72} className="w-16 sm:w-20 h-auto" />
+              <Link href="https://www.linkedin.com/in/atlas-aiml-eec" target="_blank" rel="noopener noreferrer" className="p-2 -m-2">
+                <Image src="/linkedin.png" alt="LinkedIn" width={72} height={72} className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20" />
               </Link>
 
-              <Link href="https://adeptus.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <Image src="/adeptus.png" alt="Adeptus" width={72} height={72} className="w-16 sm:w-20 h-auto" />
+              <Link href="https://adeptus.vercel.app/" target="_blank" rel="noopener noreferrer" className="p-2 -m-2">
+                <Image src="/adeptus.png" alt="Adeptus" width={72} height={72} className="w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20" />
               </Link>
             </div>  
           </div>
