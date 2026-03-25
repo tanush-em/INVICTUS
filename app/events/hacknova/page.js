@@ -75,7 +75,7 @@ export default function Hacknova() {
       <div className="mt-4 sm:mt-6 p-4 sm:p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">👥 Team &amp; Participation</h2>
         <ul className="list-disc list-inside text-gray-300 space-y-1 text-sm sm:text-base">
-          <li><strong>Team Size:</strong> 3 – 6 members</li>
+          <li><strong>Team Size:</strong> 2 – 4 members</li>
           <li><strong>Mode:</strong> Offline</li>
           <li><strong>Registration:</strong> Online registration only</li>
         </ul>
@@ -84,7 +84,7 @@ export default function Hacknova() {
       <div className="mt-4 sm:mt-6 p-4 sm:p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">📋 Rules &amp; Regulations</h2>
         <ul className="list-disc list-inside text-gray-300 space-y-1 text-sm sm:text-base">
-          <li>Teams must consist of 3 to 6 members</li>
+          <li>Teams must consist of 2 to 4 members</li>
           <li>All participants must complete registration</li>
           <li>Maintain discipline, respect, and teamwork</li>
           <li>Submissions must be completed within the given time</li>
@@ -115,7 +115,12 @@ export default function Hacknova() {
       <p className="mt-6 text-center text-base sm:text-lg text-emerald-400 font-semibold italic">HackNova 2.0 is not just a competition — it&apos;s a platform to innovate, collaborate, and build under pressure. Bring your ideas to life and make your mark.</p>
 
       <div className="mt-8 flex justify-center px-4">
-        <Link href="#" className="w-full sm:w-auto">
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdBgqQRqpgnG866_q42JwIPbQXkJmzGJ08hD0HsqFuutCG0Fw/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full sm:w-auto"
+        >
           <button className="w-full sm:w-auto px-6 py-3 text-base sm:text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md transition-transform transform hover:scale-105 hover:bg-blue-700 active:scale-95 min-h-[44px]">
             Register Now
           </button>

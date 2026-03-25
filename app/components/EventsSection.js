@@ -54,7 +54,7 @@ const eventCategories = [
   {
     name: "Technical & Coding",
     events: [
-        { title: "HackNova 2.0", src: "/hacknova.png", description: "An 8-hour hackathon where participants tackle real-world challenges using cutting-edge technology and teamwork. Build innovative solutions across Healthcare, AI, Cybersecurity, FinTech & more.", redirectLink: "/events/hacknova" },
+        { title: "HackNova 2.0", src: "/hacknova.png", description: "8-hour hackathon (teams of 2–4). Tackle real-world challenges with cutting-edge tech across Healthcare, AI, Cybersecurity, FinTech & Open Innovation.", redirectLink: "/events/hacknova" },
         { title: "Model Mayhem: A Quiz Battle", src: "/model-mayhem.png", description: "A fast-paced AI quiz battle testing teams on ML, deep learning, and real-world concepts through MCQs, rapid-fire, and scenario-based challenges.", redirectLink: "/events/model-mayhem" },
         { title: "Data Forge: Dataset Cleansing", src: "/data-forge.png", description: "Teams clean, preprocess, and feature-engineer a raw, messy dataset to make it ready for analysis.", redirectLink: "/events/data-forge" },
         { title: "Debug Dash: Code Under Pressure", src: "/debug-dash.png", description: "A buzzer-based challenge to correctly fix buggy code snippets (C/Java/Python) under a time limit.", redirectLink: "/events/debug-dash" },
