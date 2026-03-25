@@ -52,9 +52,9 @@ export default function Hacknova() {
         <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">🧩 Domains</h2>
         <p className="text-gray-300 text-sm sm:text-base mb-2">Participants will build solutions in the following domains:</p>
         <ul className="list-disc list-inside text-gray-300 space-y-1 text-sm sm:text-base">
-          <li>🤖 AIML</li>
+          <li>🤖 AI/ML</li>
           <li>🌱 Environmental Sustainability</li>
-          <li>📡 IOT</li>
+          <li>📡 IoT</li>
           <li>🌍 Open Innovation</li>
         </ul>
       </div>
@@ -67,7 +67,7 @@ export default function Hacknova() {
           <li>💻 10:30 AM – 1:30 PM: Hacking Phase II</li>
           <li>🍴 12:30 PM – 1:30 PM: Lunch (Team members will take lunch in shifts, ensuring that at least two members remain at the decor area at all times while the other two members go for lunch)</li>
           <li>✅ 1:30 PM – 2:30 PM: Evaluation 2</li>
-          <li>🏆 3:00 PM – 3:30 PM: Prize Distributions</li>
+          <li>🏆 3:00 PM – 3:30 PM: Prize distributions</li>
         </ul>
       </div>
 
