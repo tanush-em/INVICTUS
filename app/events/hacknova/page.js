@@ -32,7 +32,7 @@ export default function Hacknova() {
         <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">📅 Event Details</h2>
         <ul className="list-disc list-inside text-gray-300 space-y-1 text-sm sm:text-base">
           <li><strong>Date:</strong> 27th March 2026</li>
-          <li><strong>Time:</strong> 9:00 AM onwards</li>
+          <li><strong>Time:</strong> 8:30 AM onwards</li>
           <li><strong>Location:</strong> Library, Easwari Engineering College</li>
         </ul>
       </div>
@@ -52,10 +52,9 @@ export default function Hacknova() {
         <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">🧩 Domains</h2>
         <p className="text-gray-300 text-sm sm:text-base mb-2">Participants will build solutions in the following domains:</p>
         <ul className="list-disc list-inside text-gray-300 space-y-1 text-sm sm:text-base">
-          <li>🏥 Healthcare &amp; Well-being</li>
-          <li>🤖 AI / Machine Learning</li>
-          <li>🔐 Cybersecurity</li>
-          <li>💰 FinTech</li>
+          <li>🤖 AIML</li>
+          <li>🌱 Environmental Sustainability</li>
+          <li>📡 IOT</li>
           <li>🌍 Open Innovation</li>
         </ul>
       </div>
@@ -63,12 +62,12 @@ export default function Hacknova() {
       <div className="mt-4 sm:mt-6 p-4 sm:p-5 bg-gray-600 rounded-lg shadow-md">
         <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3">⏳ Schedule</h2>
         <ul className="list-disc list-inside text-gray-300 space-y-1 text-sm sm:text-base">
-          <li>🕘 9:00 AM – 10:00 AM: Inauguration &amp; Briefing</li>
-          <li>💻 10:00 AM – 01:00 PM: Hacking Phase I</li>
-          <li>🍴 01:00 PM – 01:30 PM: Lunch Break</li>
-          <li>💻 01:30 PM – 04:00 PM: Hacking Phase II</li>
-          <li>📤 04:00 PM – 04:30 PM: Project Submission &amp; Presentations</li>
-          <li>🏁 04:30 PM – 05:00 PM: Closing Ceremony</li>
+          <li>💻 8:30 AM – 10:30 AM: Hacking Phase I</li>
+          <li>✅ 10:30 AM: Evaluation 1</li>
+          <li>💻 10:30 AM – 1:30 PM: Hacking Phase II</li>
+          <li>🍴 12:30 PM – 1:30 PM: Lunch (Team members will take lunch in shifts, ensuring that at least two members remain at the decor area at all times while the other two members go for lunch)</li>
+          <li>✅ 1:30 PM – 2:30 PM: Evaluation 2</li>
+          <li>🏆 3:00 PM – 3:30 PM: Prize Distributions</li>
         </ul>
       </div>
 
@@ -77,7 +76,7 @@ export default function Hacknova() {
         <ul className="list-disc list-inside text-gray-300 space-y-1 text-sm sm:text-base">
           <li><strong>Team Size:</strong> 2 – 4 members</li>
           <li><strong>Mode:</strong> Offline</li>
-          <li><strong>Registration:</strong> Online registration only</li>
+          <li><strong>Registration:</strong> Both Offline and Online registration</li>
         </ul>
       </div>
 
